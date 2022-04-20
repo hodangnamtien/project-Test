@@ -2,11 +2,11 @@
 
   - [`multiple` (`optional`)](#usage)
   - [`items` (`required`)](#items-required)
-  - [`setItems` (`required`)](#setItems)
-  - [`value` (`required`)](#value)
-  - [`setValue` (`required`)](#setValue)
-  - [`valueSelected` (`required`)](#valueSelected)
-  - [`setValueSelected` (`required`)](#setValueSelected)
+  - [`setItems` (`required`)](#setitems-required)
+  - [`value` (`required`)](#value-required)
+  - [`setValue` (`required`)](#setvalue-required)
+  - [`valueSelected` (`required`)](#valueselected-required)
+  - [`setValueSelected` (`required`)](#setvalueselected-required)
   - [`disabled` (`optional`)](#)
   - [`schema` (`optional`)](#item-schema)
 

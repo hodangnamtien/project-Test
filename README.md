@@ -1,18 +1,29 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
 
   - [`multiple` (`optional`)](#usage)
+  - [`items` (`required`)](#)
+  - [`setItems` (`required`)](#)
   - [`value` (`required`)](#)
   - [`setValue` (`required`)](#)
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
 
   - [`title` (`required`)](#)
+  - [`required` (`optional`)](#)
+  - [`isValid` (`optional`)](#)
+  - [`setIsChecked` (`optional`)](#)
+
   - [`placeholder` (`optional`)](#usage)
-  - [`value` (`required`)](#)
+  - [`showArrowIcon` (`optional`)](#)
+
   - [`setValue` (`required`)](#)
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
+
   - [`searchable` (`required`)](#)
+
+  - [`min` (`optional`)](#)
+  - [`max` (`optional`)](#)
 
 # Usage
 

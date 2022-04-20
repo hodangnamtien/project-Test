@@ -1,7 +1,7 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
 
   - [`multiple` (`optional`)](#usage)
-  - [`items` (`required`)](#items)
+  - [`items` (`required`)](#items-required)
   - [`setItems` (`required`)](#setItems)
   - [`value` (`required`)](#value)
   - [`setValue` (`required`)](#setValue)

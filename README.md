@@ -1,5 +1,5 @@
-
 # Placeholder
+
 Khi không có mục nào được chọn. Giá trị cho bộ chọn một mục là rỗng và đối với nhiều bộ chọn mục là []
 
 ```javascript
@@ -11,25 +11,33 @@ const [valueSelected, setValueSelected] = useState([]); // Multiple
   ...
 />
 ```
+
 ### Placeholder Text
 
 #### placeholder
+
 Giá trị mặc định:
-```
-  placeholder="Select"
 
 ```
+  placeholder="Select"
+```
+
 # Search
+
 ### disableLocalSearch
-Vô hiệu hóa tìm kiếm cho những dữ liệu cục bộ
+
+Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn
 
 ```
   searchPlaceholder={false}
 ```
-| Type |Default |
-| ----------|-----------------|
-| boolean |false |
 
+| Type    | Default |
+| ------- | ------- |
+| boolean | false   |
 
+### searchPlaceholder
 
-
+```javascript
+  searchPlaceholder={'Search'}
+```

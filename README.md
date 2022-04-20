@@ -104,7 +104,21 @@ const App: React.FC<Props> = (props) => {
 
 # Item schema
 
-#### `value` (`required`)
+### Default schema
+
+```js
+schema: {{
+  {
+    label: string;
+    value: string;
+    selectable?: string;
+    disabled?: string;
+    testID?: string;
+  }
+}};
+```
+
+### `value` (`required`)
 
 # Placeholder
 

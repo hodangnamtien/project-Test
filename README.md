@@ -1,7 +1,7 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
 
   - [`multiple` (`optional`)](#usage)
-  - [`items` (`required`)](#items)
+  - [`items` (`required`)](<#items()>)
   - [`setItems` (`required`)](#)
   - [`value` (`required`)](#)
   - [`setValue` (`required`)](#)
@@ -139,6 +139,8 @@ const remoteItems = [
 | Type  | Required |
 | ----- | -------- |
 | [any] | true     |
+
+> See [`items` (`required`)](<#items()>)
 
 ### `value` (`required`)
 

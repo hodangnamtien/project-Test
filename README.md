@@ -157,7 +157,7 @@ const remoteItems = [
 For single
 | Type | Required |
 | ----- | -------- |
-| string | number | true |
+| ValueType[] | true |
 
 # Placeholder
 

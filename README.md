@@ -166,7 +166,7 @@ Dành cho `multiple`:
 | ----- | -------- |
 | ValueType[] | true |
 
-> [`ValueType`]() = string | number
+> [`ValueType`]() = string | number, thuộc field `value` trong object schema
 
 # Placeholder
 

@@ -190,6 +190,7 @@ Dành cho `single`:
 | Type | Required |
 | ---------------------------- | -------- |
 | [`ItemType`](#item-schema) | true |
+
 Dành cho `multiple`:
 | Type | Required |
 | ---------------------------- | -------- |

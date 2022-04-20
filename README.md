@@ -1,5 +1,5 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
-  - [`multiple` (`optional, required`)](#usage)
+  - [`multiple` (`optional`)](#usage)
 
 # Usage
 
@@ -10,24 +10,22 @@ Chỉ chọn 1 mục.
 ```js
 import Selection from "@components";
 
-function App() {
-  const [open, setOpen] = useState(false);
+const App: React.FC<Props> = (props) => {
   const [value, setValue] = useState(null);
   const [items, setItems] = useState([
-    { label: "Apple", value: "apple" },
-    { label: "Banana", value: "banana" },
+    { label: "Javascript", value: "1" },
+    { label: "Typescript", value: "2" },
   ]);
 
   return (
     <Selection
-      value={value}
       items={items}
-      setOpen={setOpen}
-      setValue={setValue}
       setItems={setItems}
+      value={value}
+      setValue={setValue}
     />
   );
-}
+};
 ```
 
 # Placeholder

@@ -154,17 +154,18 @@ const remoteItems = [
 <Selection value={value} />
 ```
 
-For single:
+Dành cho `single`:
 | Type | Required |
 | ----- | -------- |
 | ValueType | true |
 
-For mutiple:
+Dành cho `multiple`:
 | Type | Required |
 | ----- | -------- |
 | ValueType[] | true |
 
 > [`ValueType`]() = string | number
+> keyof typeof ItemSheme['value']
 
 # Placeholder
 

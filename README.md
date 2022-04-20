@@ -159,7 +159,7 @@ For single
 | ----- | -------- |
 | `ValueType "|" ValueType[]` | true |
 
-> ValueType = string | number
+> [`ValueType`]() = string | number
 
 # Placeholder
 

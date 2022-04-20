@@ -136,9 +136,9 @@ const remoteItems = [
 <Selection item={items} />
 ```
 
-| Type                            | Required |
-| ------------------------------- | -------- |
-| [`Item schema`](#item-schema)[] | true     |
+| Type                         | Required |
+| ---------------------------- | -------- |
+| [`ItemType`](#item-schema)[] | true     |
 
 ### `setItems` (`required`)
 

@@ -20,10 +20,13 @@
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
 
-  - [`modalTitle` (`optional`)](#)
-  - [`searchable` (`optional`)](#searchplaceholder)
-  - [`searchPlaceholder` (`optional`)](#)
-  - [`closeAfterSelecting` (`optional`)](#)
+  - [`modalTitle` (`optional`)](#modaltitle)
+  - [`searchable` (`optional`)](#search)
+  - [`disableLocalSearch` (`optional`)](#disablelocalsearch)
+  - [`searchPlaceholder` (`optional`)](#searchplaceholder)
+  - [`searchValue` (`optional`)]()
+  - [`setSearchValue` (`optional`)]()
+  - [`closeAfterSelecting` (`optional`)](#closeafterselecting)
 
   - [`min` (`optional`)](#)
   - [`max` (`optional`)](#)

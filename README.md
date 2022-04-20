@@ -1,7 +1,7 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
 
   - [`multiple` (`optional`)](#usage)
-  - [`items` (`required`)](<#items()>)
+  - [`items` (`required`)](#items)
   - [`setItems` (`required`)](#)
   - [`value` (`required`)](#)
   - [`setValue` (`required`)](#)
@@ -141,6 +141,14 @@ const remoteItems = [
 | [any] | true     |
 
 > Xem kiểu type [`Item schema`](#item-schema)
+
+### `setItems` (`required`)
+
+State callback that is called to modify or add new items.
+
+```js
+<Selection setItems={setItems} />
+```
 
 ### `value` (`required`)
 

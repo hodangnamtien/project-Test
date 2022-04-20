@@ -18,14 +18,14 @@
   - [`placeholder` (`optional`)](#placeholder-optional)
   - [`showArrowIcon` (`optional`)](#showarrowicon-optional)
 
-  - [`renderLabelItem` (`optional`)]()
-  - [`showIconRemove` (`optional`)]()
-  - [`fullWidthItemLabel` (`optional`)]()
-  - [`showNumberItem` (`optional`)]()
-  - [`showAll` (`optional`)]()
+  - [`renderLabelItem` (`optional`)](#renderlabelitem-optional)
+  - [`showIconRemove` (`optional`)](#showiconremove-optional)
+  - [`fullWidthItemLabel` (`optional`)](#fullwidthitemlabel-optional)
+  - [`showNumberItem` (`optional`)](#shownumberitem-optional)
+  - [`showAll` (`optional`)](#showall-optional)
 
-  - [`modalTitle` (`optional`)](#modaltitle)
-  - [`searchable` (`optional`)](#search)
+  - [`modalTitle` (`optional`)](#modaltitle-optional)
+  - [`searchable` (`optional`)](#searchable-optional)
   - [`disableLocalSearch` (`optional`)](#disablelocalsearch)
   - [`searchPlaceholder` (`optional`)](#searchplaceholder)
   - [`searchValue` (`optional`)]()
@@ -299,6 +299,50 @@ renderLabelItem={(props) => <View {...props} />}
 | ------------------ | ---------- |
 | void or underfined | underfined |
 
+### `showIconRemove` (`optional`)
+
+```js
+<Selection showIconRemove={true}>
+```
+
+| Type                  | Default |
+| --------------------- | ------- |
+| boolean or underfined | true    |
+
+### `fullWidthItemLabel` (`optional`)
+
+```js
+<Selection fullWidthItemLabel={false}>
+```
+
+| Type                  | Default |
+| --------------------- | ------- |
+| boolean or underfined | false   |
+
+### `showNumberItem` (`optional`)
+
+Chỉ định số `label` hiển thỉ seemore.
+
+```js
+<Selection showNumberItem={10}>
+```
+
+| Type                 | Default |
+| -------------------- | ------- |
+| number or underfined | 10      |
+
+### `showAll` (`optional`)
+
+Chỉ định xem có hiển thị seemore hay không.
+
+```js
+<Selection showAll={true}>
+```
+
+| Type                  | Default |
+| --------------------- | ------- |
+| boolean or underfined | false   |
+
 # Search
 
 ### disableLocalSearch
@@ -321,15 +365,29 @@ Default:
   searchPlaceholder={'Search'}
 ```
 
-# Modal
+### `modalTitle` (`optional`)
 
-### modalTitle
+> Yêu cầu `searchable={false}`.
 
-Nếu `searchable={false}`.
-
-```javascript
-  modalTitle={''}
+```js
+<Selection modalTitle={"modalTitle"} />
 ```
+
+| Type                 | Default |
+| -------------------- | ------- |
+| string or underfined | ""      |
+
+### `searchable` (`optional`)
+
+Chỉ định bật tính năng tìm kiếm
+
+```js
+<Selection searchable={true} />
+```
+
+| Type                     | Default |
+| ------------------------ | ------- |
+| searchable or underfined | true    |
 
 # List and Items
 

@@ -12,6 +12,7 @@ import Selection from "@components";
 
 const App: React.FC<Props> = (props) => {
   const [value, setValue] = useState(null);
+  const [valueSelected, setValueSelected] = useState(null);
   const [items, setItems] = useState([
     { label: "Javascript", value: "1" },
     { label: "Typescript", value: "2" },
@@ -23,6 +24,37 @@ const App: React.FC<Props> = (props) => {
       setItems={setItems}
       value={value}
       setValue={setValue}
+      valueSelected={valueSelected}
+      setValueSelected={setValueSelected}
+      ...
+    />
+  );
+};
+```
+
+### Multiple items
+
+Chọn nhiều mục.
+
+```js
+const App: React.FC<Props> = (props) => {
+  const [value, setValue] = useState([]);
+  const [valueSelected, setValueSelected] = useState([]);
+  const [items, setItems] = useState([
+    { label: "Javascript", value: "1" },
+    { label: "Typescript", value: "2" },
+  ]);
+
+  return (
+    <Selection
+      multiple={true}
+      items={items}
+      setItems={setItems}
+      value={value}
+      setValue={setValue}
+      valueSelected={valueSelected}
+      setValueSelected={setValueSelected}
+      ...
     />
   );
 };

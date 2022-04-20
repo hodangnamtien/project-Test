@@ -178,10 +178,22 @@ Dành cho `multiple`:
 <Selection setValue={setValue} />
 ```
 
+| Type                                     | Required |
+| ---------------------------------------- | -------- |
+| (callback: [`SetStateAction`]()) => void | true     |
+
+### `valueSelected` (`required`)
+
+Mảng này chứa dữ liệu để hiển thị `label` cho những mục được chọn.
+
+Dành cho `single`:
+| Type | Required |
+| ---------------------------- | -------- |
+| [`ItemType`](#item-schema) | true |
 Dành cho `multiple`:
 | Type | Required |
-| ----- | -------- |
-| (callback: [`SetStateAction`]()) => void | true |
+| ---------------------------- | -------- |
+| [`ItemType`](#item-schema)[] | true |
 
 # Placeholder
 

@@ -1,3 +1,6 @@
+- [Props / params](#component-props--params-of-the-android-imperative-api)
+  - [`mode` (`optional`)](#modal)
+
 # Placeholder
 
 Khi không có mục nào được chọn. Giá trị cho bộ chọn một mục là rỗng và đối với nhiều bộ chọn mục là []
@@ -64,7 +67,8 @@ Nếu `searchable={false}`.
   closeAfterSelecting={true}
 ```
 
-> Note
+> ⚠️ NOTE
+
 > Điều này chỉ hoạt động khi `multiple={false}`
 
 | Type    | Default |

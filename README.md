@@ -13,7 +13,7 @@
   - [`title` (`required`)](#title-required)
   - [`required` (`optional`)](#required-optional)
   - [`isValid` (`optional`)](#isvalid-optional)
-  - [`setIsChecked` (`optional`)](#)
+  - [`setIsChecked` (`optional`)](#setischecked-optional)
 
   - [`placeholder` (`optional`)](#usage)
   - [`showArrowIcon` (`optional`)](#)

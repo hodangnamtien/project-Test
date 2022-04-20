@@ -133,7 +133,7 @@ const remoteItems = [
 ### `items` (`required`)
 
 ```js
-item = { items };
+<Selection item={items} />
 ```
 
 | Type  | Required |
@@ -163,7 +163,7 @@ const [valueSelected, setValueSelected] = useState([]); // Multiple
 Default:
 
 ```javascript
-placeholder = "Select";
+<Selection placeholder={'select'}>
 ```
 
 # Search

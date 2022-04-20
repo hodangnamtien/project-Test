@@ -2,8 +2,8 @@
 
   - [`multiple` (`optional`)](#usage)
   - [`items` (`required`)](#items)
-  - [`setItems` (`required`)](#)
-  - [`value` (`required`)](#)
+  - [`setItems` (`required`)](#setItems)
+  - [`value` (`required`)](#value)
   - [`setValue` (`required`)](#)
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
@@ -151,6 +151,15 @@ const remoteItems = [
 ```
 
 ### `value` (`required`)
+
+```js
+<Selection value={value} />
+```
+
+For single
+| Type | Required |
+| ----- | -------- |
+| string|number | true |
 
 # Placeholder
 

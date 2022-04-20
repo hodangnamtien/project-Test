@@ -10,7 +10,7 @@
   - [`disabled` (`optional`)](#)
   - [`schema` (`optional`)](#item-schema)
 
-  - [`title` (`required`)](#)
+  - [`title` (`required`)](#title-required)
   - [`required` (`optional`)](#)
   - [`isValid` (`optional`)](#)
   - [`setIsChecked` (`optional`)](#)
@@ -152,7 +152,7 @@ Biến để chứa các mục.
 
 ### `value` (`required`)
 
-Mảng này chỉ chứa những giá trị `unique` để gửi cho BE.
+Chỉ chứa những giá trị `unique` để gửi cho BE.
 
 ```js
 <Selection value={value} />
@@ -184,7 +184,7 @@ Dành cho `multiple`:
 
 ### `valueSelected` (`required`)
 
-Mảng này chứa dữ liệu để hiển thị `label` cho những mục được chọn.
+Chứa dữ liệu để hiển thị `label` cho những mục được chọn.
 
 Dành cho `single`:
 | Type | Required |
@@ -208,6 +208,33 @@ Dành cho `multiple`:
 | Type                                     | Required |
 | ---------------------------------------- | -------- |
 | (callback: [`SetStateAction`]()) => void | true     |
+
+### `title` (`required`)
+
+Tiêu đề của selection.
+
+```js
+<Selection title={"Title"} />
+```
+
+| Type   | Required |
+| ------ | -------- |
+| string | true     |
+
+### `required` (`optional`)
+
+```js
+    required={true} // Field bắt buộc
+    required={false} // Field không bắt buộc
+```
+
+```js
+<Selection required={"true"} />
+```
+
+| Type   | Default |
+| ------ | ------- |
+| string | false   |
 
 # Placeholder
 

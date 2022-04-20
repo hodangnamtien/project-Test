@@ -26,22 +26,22 @@
 
   - [`modalTitle` (`optional`)](#modaltitle-optional)
   - [`searchable` (`optional`)](#searchable-optional)
-  - [`disableLocalSearch` (`optional`)](#disablelocalsearch)
-  - [`searchPlaceholder` (`optional`)](#searchplaceholder)
+  - [`disableLocalSearch` (`optional`)](#disablelocalsearch-optional)
+  - [`searchPlaceholder` (`optional`)](#searchplaceholder-optional)
   - [`searchValue` (`optional`)]()
   - [`setSearchValue` (`optional`)]()
   - [`onChangeSearchText` (`optional`)]()
   - [`closeAfterSelecting` (`optional`)](#closeafterselecting)
-  - [`renderItem` (`optional`)]()
-  - [`showTickIcon` (`optional`)]()
+  - [`renderItem` (`optional`)](#renderitem-optional)
+  - [`showTickIcon` (`optional`)](#showtickicon-optional)
 
-  - [`min` (`optional`)]()
-  - [`max` (`optional`)]()
+  - [`min` (`optional`)](#min-optional)
+  - [`max` (`optional`)](#max-optional)
 
-  - [`disableLoadMore` (`optional`)]()
-  - [`refreshing` (`optional`)]()
-  - [`onRefresh` (`optional`)]()
-  - [`onEndReached` (`optional`)]()
+  - [`disableLoadMore` (`optional`)](#disableloadmore-optional)
+  - [`refreshing` (`optional`)](#refreshing-optional)
+  - [`onRefresh` (`optional`)](#onrefresh-optional)
+  - [`onEndReached` (`optional`)](#onendreached-optional)
 
 # Usage
 
@@ -345,25 +345,27 @@ Chỉ định xem có hiển thị seemore hay không.
 
 # Search
 
-### disableLocalSearch
+### `disableLocalSearch` (`optional`)
 
 Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn.
 
-```javascript
-  searchPlaceholder={false}
+```js
+<Selection disableLocalSearch={false} />
 ```
 
 | Type    | Default |
 | ------- | ------- |
 | boolean | false   |
 
-### searchPlaceholder
+### `searchPlaceholder` (`optional`)
 
-Default:
-
-```javascript
-  searchPlaceholder={'Search'}
+```js
+<Selection searchPlaceholder={"Search"} />
 ```
+
+| Type                 | Default  |
+| -------------------- | -------- |
+| string or underfined | 'Search' |
 
 ### `modalTitle` (`optional`)
 
@@ -379,7 +381,7 @@ Default:
 
 ### `searchable` (`optional`)
 
-Chỉ định bật tính năng tìm kiếm
+Chỉ định bật tính năng tìm kiếm.
 
 ```js
 <Selection searchable={true} />
@@ -389,20 +391,102 @@ Chỉ định bật tính năng tìm kiếm
 | ------------------------ | ------- |
 | searchable or underfined | true    |
 
-# List and Items
-
-### closeAfterSelecting
+### `closeAfterSelecting` (`optional`)
 
 Đóng selection khi đã chọn 1 mục.
 
-```javascript
-  closeAfterSelecting={true}
+```js
+<Selection closeAfterSelecting={true} />
 ```
-
-> ⚠️ NOTE
 
 > Điều này chỉ hoạt động khi `multiple={false}`
 
 | Type    | Default |
 | ------- | ------- |
 | boolean | true    |
+
+### `renderItem` (`optional`)
+
+```js
+renderItem={(props) => <View {...props} />}
+```
+
+| Type               | Default    |
+| ------------------ | ---------- |
+| void or underfined | underfined |
+
+### `showTickIcon` (`optional`)
+
+```js
+<Selection showTickIcon={true} />
+```
+
+| Type                  | Default |
+| --------------------- | ------- |
+| boolean or underfined | true    |
+
+### `min` (`optional`)
+
+Giá trị nhỏ nhất khi chọn các mục
+
+```js
+<Selection min={1} />
+```
+
+| Type                 | Default    |
+| -------------------- | ---------- |
+| number or underfined | underfined |
+
+### `max` (`optional`)
+
+Giá trị tối da khi chọn các mục
+
+```js
+<Selection max={10} />
+```
+
+| Type                 | Default    |
+| -------------------- | ---------- |
+| number or underfined | underfined |
+
+### `disableLoadMore` (`optional`)
+
+```js
+<Selection disableLoadMore={false} />
+```
+
+| Type                  | Default |
+| --------------------- | ------- |
+| boolean or underfined | false   |
+
+### `refreshing` (`optional`)
+
+```js
+<Selection refreshing={false} />
+```
+
+| Type                  | Default |
+| --------------------- | ------- |
+| boolean or underfined |         |
+
+### `onRefresh` (`optional`)
+
+```js
+<Selection onRefresh={false} />
+```
+
+> Yêu cầu: `refreshing={true}`>
+
+| Type               | Default    |
+| ------------------ | ---------- |
+| void or underfined | underfined |
+
+### `onEndReached` (`optional`)
+
+```js
+<Selection onEndReached={false} />
+```
+
+| Type               | Default    |
+| ------------------ | ---------- |
+| void or underfined | underfined |

@@ -107,15 +107,27 @@ const App: React.FC<Props> = (props) => {
 ### Default schema
 
 ```js
-schema: {{
-  {
-    label: string;
-    value: string;
-    selectable?: string;
-    disabled?: string;
-    testID?: string;
-  }
-}};
+schema={{
+  label: 'label', // required
+  value: 'value', // required
+}}
+```
+
+### Customize the schema
+
+```js
+const remoteItems = [
+  {id: 1, title: 'Item 1'},
+  {id: 2, title: 'Item 2'},
+];
+
+<Selection
+  schema={{
+    label: 'title',
+    value: 'id'
+  }}
+  ...
+/>
 ```
 
 ### `value` (`required`)

@@ -1,6 +1,18 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
+
   - [`multiple` (`optional`)](#usage)
   - [`value` (`required`)](#)
+  - [`setValue` (`required`)](#)
+  - [`valueSelected` (`required`)](#)
+  - [`setValueSelected` (`required`)](#)
+
+  - [`title` (`required`)](#)
+  - [`placeholder` (`optional`)](#usage)
+  - [`value` (`required`)](#)
+  - [`setValue` (`required`)](#)
+  - [`valueSelected` (`required`)](#)
+  - [`setValueSelected` (`required`)](#)
+  - [`searchable` (`required`)](#)
 
 # Usage
 
@@ -61,7 +73,7 @@ const App: React.FC<Props> = (props) => {
 };
 ```
 
-### `value` (`required`)
+#### `value` (`required`)
 
 # Placeholder
 

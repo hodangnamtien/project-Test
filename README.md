@@ -61,7 +61,7 @@ const App: React.FC<Props> = (props) => {
 };
 ```
 
-### value (`required`)
+### `value` (`required`)
 
 # Placeholder
 

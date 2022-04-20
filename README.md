@@ -7,6 +7,8 @@
   - [`setValue` (`required`)](#)
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
+  - [`disabled` (`optional`)](#)
+  - [`schema` (`optional`)](#)
 
   - [`title` (`required`)](#)
   - [`required` (`optional`)](#)
@@ -16,9 +18,11 @@
   - [`placeholder` (`optional`)](#usage)
   - [`showArrowIcon` (`optional`)](#)
 
-  - [`setValue` (`required`)](#)
-  - [`valueSelected` (`required`)](#)
-  - [`setValueSelected` (`required`)](#)
+  - [`renderLabelItem` (`optional`)]()
+  - [`showIconRemove` (`optional`)]()
+  - [`fullWidthItemLabel` (`optional`)]()
+  - [`showNumberItem` (`optional`)]()
+  - [`showAll` (`optional`)]()
 
   - [`modalTitle` (`optional`)](#modaltitle)
   - [`searchable` (`optional`)](#search)
@@ -26,10 +30,18 @@
   - [`searchPlaceholder` (`optional`)](#searchplaceholder)
   - [`searchValue` (`optional`)]()
   - [`setSearchValue` (`optional`)]()
+  - [`onChangeSearchText` (`optional`)]()
   - [`closeAfterSelecting` (`optional`)](#closeafterselecting)
+  - [`renderItem` (`optional`)]()
+  - [`showTickIcon` (`optional`)]()
 
-  - [`min` (`optional`)](#)
-  - [`max` (`optional`)](#)
+  - [`min` (`optional`)]()
+  - [`max` (`optional`)]()
+
+  - [`disableLoadMore` (`optional`)]()
+  - [`refreshing` (`optional`)]()
+  - [`onRefresh` (`optional`)]()
+  - [`onEndReached` (`optional`)]()
 
 # Usage
 

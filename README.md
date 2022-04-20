@@ -159,6 +159,8 @@ For single
 | ----- | -------- |
 | `ValueType "|" ValueType[]` | true |
 
+> ValueType = string | number
+
 # Placeholder
 
 Khi không có mục nào được chọn. Giá trị cho bộ chọn một mục là rỗng và đối với nhiều bộ chọn mục là []

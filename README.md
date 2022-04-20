@@ -15,8 +15,8 @@
   - [`isValid` (`optional`)](#isvalid-optional)
   - [`setIsChecked` (`optional`)](#setischecked-optional)
 
-  - [`placeholder` (`optional`)](#usage)
-  - [`showArrowIcon` (`optional`)](#)
+  - [`placeholder` (`optional`)](#placeholder-optional)
+  - [`showArrowIcon` (`optional`)](#showarrowicon-optional)
 
   - [`renderLabelItem` (`optional`)]()
   - [`showIconRemove` (`optional`)]()
@@ -265,29 +265,39 @@ const [checked, setChecked]= useState<boolean>(false)
 | ----------------- | ---------- |
 | Dispatch<boolean> | underfined |
 
-# Placeholder
+### `placeholder` (`optional`)
 
-Khi không có mục nào được chọn. Giá trị cho bộ chọn một mục là rỗng và đối với nhiều bộ chọn mục là []
+Hiển thị khi chưa có giá trị nào được chọn.
 
-```javascript
-const [valueSelected, setValueSelected] = useState(null); // Single
-const [valueSelected, setValueSelected] = useState([]); // Multiple
-
-<DropDownPicker
-  valueSelected={valueSelected}
-  ...
-/>
-```
-
-### Placeholder Text
-
-#### placeholder
-
-Default:
-
-```javascript
+```js
 <Selection placeholder={'select'}>
 ```
+
+| Type                 | Default  |
+| -------------------- | -------- |
+| string or underfined | 'select' |
+
+### `showArrowIcon` (`optional`)
+
+Chỉ định biểu tượng "Arrow" có hay không
+
+```js
+<Selection showArrowIcon={true}>
+```
+
+| Type    | Default |
+| ------- | ------- |
+| boolean | true    |
+
+### `renderLabelItem` (`optional`)
+
+```js
+renderLabelItem={(props) => <View {...props} />}
+```
+
+| Type               | Default    |
+| ------------------ | ---------- |
+| void or underfined | underfined |
 
 # Search
 

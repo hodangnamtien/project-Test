@@ -140,7 +140,7 @@ const remoteItems = [
 | ----- | -------- |
 | [any] | true     |
 
-> See [`items` (`required`)](<#items()>)
+> See [`items` (`required`)](#items)
 
 ### `value` (`required`)
 

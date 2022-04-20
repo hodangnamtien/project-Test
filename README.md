@@ -192,9 +192,10 @@ Dành cho `single`:
 | [`ItemType`](#item-schema) | true |
 
 Dành cho `multiple`:
-| Type | Required |
+
+| Type                         | Required |
 | ---------------------------- | -------- |
-| [`ItemType`](#item-schema)[] | true |
+| [`ItemType`](#item-schema)[] | true     |
 
 # Placeholder
 

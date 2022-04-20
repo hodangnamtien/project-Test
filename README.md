@@ -12,7 +12,7 @@
 
   - [`title` (`required`)](#title-required)
   - [`required` (`optional`)](#required-optional)
-  - [`isValid` (`optional`)](#)
+  - [`isValid` (`optional`)](#isvalid-optional)
   - [`setIsChecked` (`optional`)](#)
 
   - [`placeholder` (`optional`)](#usage)
@@ -229,7 +229,7 @@ Tiêu đề của selection.
 ```
 
 ```js
-<Selection required={"true"} />
+<Selection required={true} />
 ```
 
 | Type    | Default |
@@ -238,13 +238,32 @@ Tiêu đề của selection.
 
 ### `isValid` (`optional`)
 
+Được gọi để xử lý validation cho những field bắt buộc.
+
+> Chỉ sử dụng props này khi `required={true}`
+
 ```js
-<Selection isValid={"false"} />
+<Selection isValid={true} />
 ```
 
 | Type    | Default |
 | ------- | ------- |
 | boolean | false   |
+
+### `setIsChecked` (`optional`)
+
+Được gọi để thể hiện trạng thái đã vượt qua được kiểm tra validation hay chưa.
+
+> Chỉ sử dụng props này khi `isValid={true}`
+
+```js
+const [checked, setChecked]= useState<boolean>(false)
+<Selection isValid={true} setIsChecked={setChecked} />
+```
+
+| Type              | Default    |
+| ----------------- | ---------- |
+| Dispatch<boolean> | underfined |
 
 # Placeholder
 

@@ -140,7 +140,7 @@ const remoteItems = [
 | ----- | -------- |
 | [any] | true     |
 
-> See [`items` (`required`)](#item-schema)
+> Xem kiểu type [`Item schema`](#item-schema)
 
 ### `value` (`required`)
 

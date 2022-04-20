@@ -11,7 +11,7 @@
   - [`schema` (`optional`)](#item-schema)
 
   - [`title` (`required`)](#title-required)
-  - [`required` (`optional`)](#)
+  - [`required` (`optional`)](#required-optional)
   - [`isValid` (`optional`)](#)
   - [`setIsChecked` (`optional`)](#)
 
@@ -232,9 +232,19 @@ Tiêu đề của selection.
 <Selection required={"true"} />
 ```
 
-| Type   | Default |
-| ------ | ------- |
-| string | false   |
+| Type    | Default |
+| ------- | ------- |
+| boolean | false   |
+
+### `isValid` (`optional`)
+
+```js
+<Selection isValid={"false"} />
+```
+
+| Type    | Default |
+| ------- | ------- |
+| boolean | false   |
 
 # Placeholder
 

@@ -1,5 +1,6 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
   - [`multiple` (`optional`)](#usage)
+  - [`value` (`required`)](#)
 
 # Usage
 
@@ -34,7 +35,7 @@ const App: React.FC<Props> = (props) => {
 
 ### Multiple items
 
-Chọn nhiều mục.
+Chọn nhiều mục. `multiple={true}`
 
 ```js
 const App: React.FC<Props> = (props) => {
@@ -59,6 +60,8 @@ const App: React.FC<Props> = (props) => {
   );
 };
 ```
+
+### value (`required`)
 
 # Placeholder
 

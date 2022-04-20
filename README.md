@@ -26,7 +26,7 @@ placeholder = "Select";
 
 ### disableLocalSearch
 
-Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn
+Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn.
 
 ```javascript
   searchPlaceholder={false}
@@ -48,8 +48,22 @@ Default:
 
 ### modalTitle
 
-Nếu searchable={false}.
+Nếu `searchable={false}`.
 
 ```javascript
   searchPlaceholder={''}
 ```
+
+# List and Item
+
+### closeAfterSelecting
+
+Đóng selection khi đã chọn 1 mục.
+
+```javascript
+  closeAfterSelecting={true}
+```
+
+| Type    | Default |
+| ------- | ------- |
+| boolean | true    |

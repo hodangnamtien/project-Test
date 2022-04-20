@@ -132,6 +132,8 @@ const remoteItems = [
 
 ### `items` (`required`)
 
+Biến để chứa các mục.
+
 ```js
 <Selection item={items} />
 ```

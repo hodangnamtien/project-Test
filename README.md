@@ -5,10 +5,10 @@
   - [`setItems` (`required`)](#setItems)
   - [`value` (`required`)](#value)
   - [`setValue` (`required`)](#setValue)
-  - [`valueSelected` (`required`)](#)
-  - [`setValueSelected` (`required`)](#)
+  - [`valueSelected` (`required`)](#valueSelected)
+  - [`setValueSelected` (`required`)](#setValueSelected)
   - [`disabled` (`optional`)](#)
-  - [`schema` (`optional`)](#)
+  - [`schema` (`optional`)](#item-schema)
 
   - [`title` (`required`)](#)
   - [`required` (`optional`)](#)
@@ -196,6 +196,18 @@ Dành cho `multiple`:
 | Type                         | Required |
 | ---------------------------- | -------- |
 | [`ItemType`](#item-schema)[] | true     |
+
+### `setValueSelected` (`required`)
+
+`State callback` được gọi để cập nhật khi giá trị chọn thay đổi
+
+```js
+<Selection setValueSelected={setValueSelected} />
+```
+
+| Type                                     | Required |
+| ---------------------------------------- | -------- |
+| (callback: [`SetStateAction`]()) => void | true     |
 
 # Placeholder
 

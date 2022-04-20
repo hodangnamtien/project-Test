@@ -150,6 +150,8 @@ const remoteItems = [
 
 ### `value` (`required`)
 
+Mảng này chỉ chứa những giá trị `unique` để gửi cho BE.
+
 ```js
 <Selection value={value} />
 ```
@@ -165,7 +167,6 @@ Dành cho `multiple`:
 | ValueType[] | true |
 
 > [`ValueType`]() = string | number
-> keyof typeof ItemSheme['value']
 
 # Placeholder
 

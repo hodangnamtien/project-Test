@@ -16,10 +16,10 @@ const [valueSelected, setValueSelected] = useState([]); // Multiple
 
 #### placeholder
 
-Giá trị mặc định:
+Default:
 
-```
-  placeholder="Select"
+```javascript
+placeholder = "Select";
 ```
 
 # Search
@@ -28,7 +28,7 @@ Giá trị mặc định:
 
 Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn
 
-```
+```javascript
   searchPlaceholder={false}
 ```
 
@@ -38,6 +38,18 @@ Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn
 
 ### searchPlaceholder
 
-```typescript
+Default:
+
+```javascript
   searchPlaceholder={'Search'}
+```
+
+# Modal
+
+### modalTitle
+
+Nếu searchable={false}.
+
+```javascript
+  searchPlaceholder={''}
 ```

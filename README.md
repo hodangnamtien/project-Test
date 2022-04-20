@@ -142,7 +142,7 @@ const remoteItems = [
 
 ### `setItems` (`required`)
 
-`State callback` that is called to modify or add new items.
+`State callback` được gọi để sửa đổi, xóa bỏ, hoặc thêm những mục mới.
 
 ```js
 <Selection setItems={setItems} />

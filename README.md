@@ -20,7 +20,10 @@
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
 
-  - [`searchable` (`required`)](#)
+  - [`modalTitle` (`optional`)](#)
+  - [`searchable` (`optional`)](#searchplaceholder)
+  - [`searchPlaceholder` (`optional`)](#)
+  - [`closeAfterSelecting` (`optional`)](#)
 
   - [`min` (`optional`)](#)
   - [`max` (`optional`)](#)

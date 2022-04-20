@@ -5,7 +5,7 @@
 
 ### Single item
 
-Chỉ chọn 1 mục.
+Chỉ chọn 1 mục. `multiple={false}`
 
 ```js
 import Selection from "@components";

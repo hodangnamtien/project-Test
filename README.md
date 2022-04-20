@@ -144,7 +144,7 @@ const remoteItems = [
 
 ### `setItems` (`required`)
 
-State callback that is called to modify or add new items.
+`State callback` that is called to modify or add new items.
 
 ```js
 <Selection setItems={setItems} />

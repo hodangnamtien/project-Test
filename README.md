@@ -38,6 +38,6 @@ Vô hiệu hóa tìm kiếm cho những dữ liệu có sẵn
 
 ### searchPlaceholder
 
-```javascript
+```typescript
   searchPlaceholder={'Search'}
 ```

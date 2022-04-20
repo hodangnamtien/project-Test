@@ -136,11 +136,9 @@ const remoteItems = [
 <Selection item={items} />
 ```
 
-| Type  | Required |
-| ----- | -------- |
-| [any] | true     |
-
-> Xem kiểu type [`Item schema`](#item-schema)
+| Type                            | Required |
+| ------------------------------- | -------- |
+| [`Item schema`](#item-schema)[] | true     |
 
 ### `setItems` (`required`)
 
@@ -159,7 +157,7 @@ const remoteItems = [
 For single
 | Type | Required |
 | ----- | -------- |
-| string|number | true |
+| string | number | true |
 
 # Placeholder
 

@@ -4,7 +4,7 @@
   - [`items` (`required`)](#items)
   - [`setItems` (`required`)](#setItems)
   - [`value` (`required`)](#value)
-  - [`setValue` (`required`)](#)
+  - [`setValue` (`required`)](#setValue)
   - [`valueSelected` (`required`)](#)
   - [`setValueSelected` (`required`)](#)
   - [`disabled` (`optional`)](#)
@@ -169,6 +169,19 @@ Dành cho `multiple`:
 | ValueType[] | true |
 
 > [`ValueType`]() = string | number, thuộc field `value` trong object schema
+
+### `setValue` (`required`)
+
+`State callback` được gọi để cập nhật khi giá trị chọn thay đổi
+
+```js
+<Selection setValue={setValue} />
+```
+
+Dành cho `multiple`:
+| Type | Required |
+| ----- | -------- |
+| (callback: [`SetStateAction`]) => void | true |
 
 # Placeholder
 

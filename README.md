@@ -154,10 +154,15 @@ const remoteItems = [
 <Selection value={value} />
 ```
 
-For single
+For single:
 | Type | Required |
 | ----- | -------- |
-| `ValueType "|" ValueType[]` | true |
+| ValueType | true |
+
+For mutiple:
+| Type | Required |
+| ----- | -------- |
+| ValueType[] | true |
 
 > [`ValueType`]() = string | number
 

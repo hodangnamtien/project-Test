@@ -54,8 +54,6 @@ Nếu `searchable={false}`.
   modalTitle={''}
 ```
 
-> Tao là siêu nhân
-
 # List and Items
 
 ### closeAfterSelecting
@@ -65,6 +63,9 @@ Nếu `searchable={false}`.
 ```javascript
   closeAfterSelecting={true}
 ```
+
+> Note
+> Điều này chỉ hoạt động khi `multiple={false}`
 
 | Type    | Default |
 | ------- | ------- |

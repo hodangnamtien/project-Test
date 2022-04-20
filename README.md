@@ -51,10 +51,12 @@ Default:
 Nếu `searchable={false}`.
 
 ```javascript
-  searchPlaceholder={''}
+  modalTitle={''}
 ```
 
-# List and Item
+> Tao là siêu nhân
+
+# List and Items
 
 ### closeAfterSelecting
 

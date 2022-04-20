@@ -1,5 +1,34 @@
 - [Props / params](#component-props--params-of-the-android-imperative-api)
-  - [`mode` (`optional`)](#modal)
+  - [`multiple` (`optional, required`)](#usage)
+
+# Usage
+
+### Single item
+
+Chỉ chọn 1 mục.
+
+```js
+import Selection from "@components";
+
+function App() {
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState(null);
+  const [items, setItems] = useState([
+    { label: "Apple", value: "apple" },
+    { label: "Banana", value: "banana" },
+  ]);
+
+  return (
+    <Selection
+      value={value}
+      items={items}
+      setOpen={setOpen}
+      setValue={setValue}
+      setItems={setItems}
+    />
+  );
+}
+```
 
 # Placeholder
 

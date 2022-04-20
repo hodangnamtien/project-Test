@@ -181,7 +181,7 @@ Dành cho `multiple`:
 Dành cho `multiple`:
 | Type | Required |
 | ----- | -------- |
-| (callback: [`SetStateAction`]) => void | true |
+| (callback: [`SetStateAction`]()) => void | true |
 
 # Placeholder
 

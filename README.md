@@ -45,7 +45,7 @@
 
 # Usage
 
-### Single item
+#### Single item
 
 Chỉ chọn 1 mục. `multiple={false}`
 
@@ -74,7 +74,7 @@ const App: React.FC<Props> = (props) => {
 };
 ```
 
-### Multiple items
+#### Multiple items
 
 Chọn nhiều mục. `multiple={true}`
 

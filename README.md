@@ -4,7 +4,7 @@
 
 This project aims to be a strong foundation for react-native applications. It provides a clear and organized structure, core dependencies, and boilerplate to jumpstart development.
 
-## Prerequisites
+## Prerequisites (Điều kiện tiên quyết)
 
 - [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
 - [Watchman](https://facebook.github.io/watchman)

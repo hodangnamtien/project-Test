@@ -173,7 +173,7 @@ Ví dụ:
 
 ## Styleguide
 
-For coding styling, we decided to go with ESLint and [React Native community's styleguide](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community#readme).
+For coding styling, we decided to go with Prettier - Code formatter
 
 # How to use it
 

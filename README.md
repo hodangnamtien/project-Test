@@ -6,7 +6,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 
 ## Điều kiện tiên quyết
 
-- [Node.js > 17](https://nodejs.org) và yarn (Recommended: Use [yarn](https://github.com/nvm-sh/nvm))
+- [Node.js > v16](https://nodejs.org) và [yarn](https://yarnpkg.com/)
 - [Xcode >12](https://developer.apple.com/xcode)
 - [Cocoapods 1.11.2](https://cocoapods.org)
 - [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)

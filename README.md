@@ -213,7 +213,10 @@ export const MyButton: React.FC<Props> = () => {
 };
 ```
 
-2. Về màu sắc
+2. Sử dụng component `MainContainer` cho toàn bộ màn hình.
+3. Text sử dụng component `ThemedText`.
+4. Sử dụng component `MainImage` cho những list có ảnh từ sever trả về.
+5. Về màu sắc
 
 - Các trạng thái màu sắc của chữ, icon không phụ thuộc vào `theme` được dùng như sau:
 

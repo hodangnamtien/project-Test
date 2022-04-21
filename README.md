@@ -204,6 +204,17 @@ Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import th�
 
 Không đặt tên bằng Số, tiếng Việt , không đúng nghĩa hoặc vô nghĩa.
 
+1. Cách khai báo function (chủ yếu dùng function arrow)
+
+```js
+interface Props {}
+export const MyButton: React.FC<Props> = () => {
+  return <View></View>;
+};
+```
+
+2. Về màu sắc
+
 - Các trạng thái màu sắc của chữ, icon không phụ thuộc vào `theme` được dùng như sau:
 
 ```js

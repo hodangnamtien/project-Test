@@ -65,7 +65,13 @@
 - `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.
 
   - `api`: Nơi chứa các api.
-  - `assets`: Là nơi chứa ảnh, icon, và fonts của app.
+  - `assets`:
+    Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
+
+    - ic_home
+      - ic_home.png
+      - ic_home@2x.png
+      - ic_home@3x.png
 
     > Quy tắc đặt tên cho image, ví dụ như sau: classrom, course_list
 
@@ -208,16 +214,6 @@ Another important thing is the use of propTypes to check the kind of data that y
 ### Static resources:
 
 To keep an application scalable and organized, the global static resources that are used in the application have to be created in a specific file.
-
-### We manage three main folders for that:
-
-- Assets: Here you can store all the images and icons that you need through the app. You have as an example the icon ic_home.png, to respond with the different device screen densities just create inside the same folder the image and all the scaled versions that you need. RN only handles x1, x2 and x3 in this case, you have.
-
-  - assets
-    - ic_home
-      - ic_home.png
-      - ic_home@2x.png
-      - ic_home@3x.png
 
 - Localization: This folder contains all the locale objects that you need to create a multilingual application. Create a file for each locale, inside define an object then maintain the nesting sorted by the screen that contains the text that you need and the text you want to show. As the last step, remember to create a reference inside the Localization.js file and add it to LocalizedStrings.
 - Theme: Here you can define all the styles that you use on different screens. To make easier the interaction of the application with device options for example you can create here assets as light and dark color palette

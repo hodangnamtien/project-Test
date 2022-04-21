@@ -139,9 +139,9 @@ This template follows a very simple project structure:
   - `App.tsx`: Thành phần chính của app.
   - `index.js`: Điểm đầu vào của app.
 
-## Splash screen customization
+## Tùy chỉnh màn hình Splash
 
-To customize the splash screen (logo and background color) use the CLI provided in the [official docs](https://github.com/zoontek/react-native-bootsplash#assets-generation).
+Để tùy chỉnh màn hình splash(logo and background color), hãy sử dụng [document](https://github.com/crazycodeboy/react-native-splash-screen) sau
 
 ## Thiết lập môi trường
 

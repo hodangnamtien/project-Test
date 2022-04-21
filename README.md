@@ -19,11 +19,11 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [redux](https://redux.js.org/) để quản lý `global state`.
 - [redux-toolkit](https://redux-toolkit.js.org/) dùng để dispatch những dữ liệu đơn giản.
 - [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) dùng để lưu dữ liệu vào local
-- [redux-persist](https://github.com/rt2zz/redux-persist) dùng để lấy dữ liệu đã lưu vào local và đưa vào redex.
+- [redux-persist](https://github.com/rt2zz/redux-persist) dùng để lấy dữ liệu đã lưu vào local và đưa vào redux.
 - [redux-saga](https://redux-saga.js.org/)
 - [jest](https://facebook.github.io/jest/) and [react-native-testing-library](https://callstack.github.io/react-native-testing-library/) dùng để kiểm thử.
 - [react-vector-icons]() dùng để lấy icon cho app.
-- [eact-native-reanimated]() dùng để code hiệu ứng cho app.
+- [react-native-reanimated]() dùng để code hiệu ứng cho app.
 - [react-native-calendars]() dùng để cấu hình component lịch cho app.
 - [react-native-fast-image]() dùng để xử lý khi dữ liệu trả về có nhiều hình ảnh.
 - [react-native-fbsdk-next]() dùng để tích hợp tính năng đăng nhập Facebook.
@@ -32,7 +32,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-image-crop-picker]() dùng để crop hình ảnh.
 - [react-native-linear-gradient]() dùng để tạo nền linear-gradient.
 - [react-native-modalize]() xử lý bottomSheet
-- [react-native-splash-screen]() dùng để bỏ ảnh logo khi vào app.
+- [react-native-splash-screen]().
 - [react-native-svg]() xử lý svg -[react-native-text-ticker]() chạy chữ.
 
 ## Usage

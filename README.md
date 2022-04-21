@@ -103,33 +103,25 @@ This template follows a very simple project structure:
 - `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.
 
   - `api`: Nơi chứa các api.
-  - `assets`: Là nơi chưa ảnh, icon, và fonts của app.
+  - `assets`: Là nơi chứa ảnh, icon, và fonts của app.
   - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...)
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
-  - `containers`: Chứa các màn hình của app.
-  - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
-  - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
-  - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
-  - `navigation`: Quản lý router màn hình.
-  - `actions`: This folder contains all actions that can be dispatched to redux.
-
-  - `controllers`: Folder to store all your network logic (you should have one controller per resource).
-  - `localization`: Folder to store the languages files.
-  - `navigation`: Folder to store the navigators.
-  - `reducers`: This folder should have all your reducers, and expose the combined result using its `index.js`
-  - `screens`: Folder that contains all your application screens/features.
+  - `containers`: Chứa các màn hình của app. - `screens`: Folder that contains all your application screens/features.
     - `Screen`: Each screen should be stored inside its folder and inside it a file for its code and a separate one for the styles and tests.
       - `Screen.js`
       - `Screen.styles.js`
       - `Screen.test.js`
-  - `selectors`: Folder to store your selectors for each reducer.
-  - `storage`: Folder that contains the application storage logic.
-  - `store`: Folder to put all redux middlewares and the store.
-  - `test-utils`: Folder to store tests-related utilities and components.
-  - `theme`: Folder to store all the styling concerns related to the application theme.
-  - `App.js`: Main component that starts your whole app.
-  - `index.js`: Entry point of your application as per React-Native standards.
+  - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
+  - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
+  - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
+  - `navigation`: Quản lý điều hướng màn hình.
+  - `redux`:
+  - `shared`: Chứa những css dùng chung.
+  - `types`:
+  - `utils`: Chứa file đa ngôn ngữ.
+  - `App.tsx`: Thành phần chính của app.
+  - `index.js`: Điểm đầu vào của app.
 
 ## Splash screen customization
 

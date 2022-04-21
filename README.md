@@ -196,3 +196,27 @@ Ví dụ:
 
 Dùng extension "Prettier - Code formatter" đề định dạng lại code.
 Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
+
+## Quy tắc code
+
+    Các component phải viết hoa chữ đầu, ví dụ:
+        ButtonGroup, Input
+
+Không đặt tên bằng Số, tiếng Việt , không đúng nghĩa hoặc vô nghĩa.
+
+- Các trạng thái màu sắc của chữ, icon không phụ thuộc vào `theme` được dùng như sau:
+
+```js
+import { colorOption } from "@constans";
+import { View, Text } from "react-native";
+const CustomButton = () => {
+  return (
+    <View style={styles.viewColor}>
+      <Text>Màu chữ</Text>
+    </View>
+  );
+};
+const styles = StyleSheet.create({
+  viewColor: colorOption.red,
+});
+```

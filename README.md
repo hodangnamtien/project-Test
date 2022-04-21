@@ -236,3 +236,8 @@ const CustomButton = () => {
   );
 };
 ```
+
+- Đối với các trạng thái màu sắc opacity: sử dụng theo cấu trúc như sau:
+  ```js
+  `${colorOption.red}20`;
+  ```

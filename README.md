@@ -107,7 +107,16 @@ This template follows a very simple project structure:
 
   - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...),
   - `config`: Nơi khai báo tên các "Màn hình" của app.
+
+    > Toàn bộ các tên Màn hình trong app sẽ đặt trong file Screens.ts với Cấu trúc “TÊN_MÀN_HÌNH"=”TÊN_MÀN HÌNH“
+
+    > Ví dụ như sau "CREATE_STUDENT" = "CREATE_STUDENT"
+
   - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
+    > FontIcons.ts chứa tất cả vector-icon được dùng cho toàn app.
+    > Images.ts chứa tất cả đường dẫn ảnh dùng cho app.
+    > Reponsive.ts chứa thông tin về thông số kích thước màn hình, fontScale chữ.
+    > Global.ts chứa thông tin về các biến global variables.
   - `containers`: Chứa các màn hình của app.
     - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
       - `component`: các component được dùng riêng cho thư mục này.
@@ -120,7 +129,7 @@ This template follows a very simple project structure:
   - `navigation`: Quản lý điều hướng màn hình.
   - `redux`:
   - `shared`: Chứa những css dùng chung.
-  - `types`:
+  - `types`: Chứa type `navigation` của màn hình.
   - `utils`: Chứa file đa ngôn ngữ.
   - `App.tsx`: Thành phần chính của app.
   - `index.js`: Điểm đầu vào của app.

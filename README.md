@@ -27,7 +27,8 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-calendars]() cấu hình component lịch cho app.
 - [react-native-fast-image]() xử lý khi dữ liệu trả về có nhiều hình ảnh.
 - [react-native-fbsdk-next]() tích hợp tính năng đăng nhập Facebook.
-- [react-native-device-info]() lấy thông tin kết nối của mạng.
+- [@react-native-google-signin/google-signin] tích hợp tính năng đăng nhập Google.
+- [react-native-device-info]() lấy thông tin của thiết bị.
 - [react-native-gesture-handler]() các thư viện khác yêu cầu.
 - [react-native-image-crop-picker]() crop hình ảnh.
 - [react-native-linear-gradient]() tạo nền linear-gradient.
@@ -41,8 +42,18 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-slider]()
 - [react-native-responsive-fontsize]()
 - [react-native-responsive-screen]()
-- [i18next]() đã ngôn ngữ.
+- [i18next]() đa ngôn ngữ.
 - [moment]() xử lý thời gian.
+- [lodash] xử lý javascript.
+- [@react-native-community/push-notification-ios] bắn thông báo cho ios.
+- [@react-navigation/bottom-tab]()
+- [react-native-background-timer]()
+- [react-native-snap-carousel]()
+- [react-native-camera]()
+- [react-native-qrcode-scanner]()
+- [react-native-qrcode-svg]()
+- [react-native-safe-area-context]()
+- [react-native-video]()
 
 ## Usage
 

@@ -23,7 +23,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [redux-saga](https://redux-saga.js.org/)
 - [redux-unfold-saga]()
 - [redux-devtools-extension]()
-- [jest](https://facebook.github.io/jest/) and [react-native-testing-library](https://callstack.github.io/react-native-testing-library/) kiểm thử.
+- [jest](https://facebook.github.io/jest/) kiểm thử.
 - [react-vector-icons]() lấy icon cho app.
 - [react-native-reanimated]() code hiệu ứng cho app.
 - [react-native-calendars]() cấu hình component lịch cho app.

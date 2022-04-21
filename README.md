@@ -39,23 +39,23 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [@gorhom/portal]()
 - [@gorhom/bottom-sheet]()
 - [react-native-splash-screen]()
-- [react-native-svg]() xử lý svg
-- [react-native-text-ticker]() chạy chữ.
+- [react-native-svg]()
+- [react-native-text-ticker]()
 - [react-native-safe-area-context]()
 - [react-native-screens]()
 - [react-native-slider]()
 - [react-native-responsive-fontsize]()
 - [react-native-responsive-screen]()
-- [i18next]() đa ngôn ngữ.
-- [moment]() xử lý thời gian.
-- [lodash]() xử lý javascript.
+- [i18next]()
+- [moment]()
+- [lodash]()
 - [@react-navigation/bottom-tab]()
 - [react-native-background-timer]()
 - [react-native-snap-carousel]()
 - [react-native-camera]()
 - [react-native-qrcode-scanner]()
 - [react-native-qrcode-svg]()
-- [react-native-safe-area-context]
+- [react-native-safe-area-context]()
 - [react-native-video]()
 
 ## Usage

@@ -100,11 +100,20 @@ Keep in mind that if you do this, you'll have to **install and link** all depend
 
 This template follows a very simple project structure:
 
-- `src`: This folder is the main container of all the code inside your application.
+- `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.
+
+  - `api`: Nơi chứa các api.
+  - `assets`: Là nơi chưa ảnh, icon, và fonts của app.
+  - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...)
+  - `config`: Nơi khai báo tên các "Màn hình" của app.
+  - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
+  - `containers`: Chứa các màn hình của app.
+  - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
+  - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
+  - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
+  - `navigation`: Quản lý router màn hình.
   - `actions`: This folder contains all actions that can be dispatched to redux.
-  - `assets`: Asset folder to store all images, vectors, etc.
-  - `components`: Folder to store any common component that you use through your app (such as a generic button)
-  - `constants`: Folder to store any kind of constant that you have.
+
   - `controllers`: Folder to store all your network logic (you should have one controller per resource).
   - `localization`: Folder to store the languages files.
   - `navigation`: Folder to store the navigators.

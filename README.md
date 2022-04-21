@@ -111,6 +111,28 @@
 
 ## Thiết lập môi trường
 
+### Thiết lập các đường đẫn động
+
+Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
+
+```js
+  "paths": {
+      "@navigation": ["./src/navigation"],
+      "@shared": ["./src/shared"],
+      "@api": ["./src/api"],
+      "@configs": ["./src/configs"],
+      "@redux": ["./src/redux"],
+      "@models": ["./src/models"],
+      "@components": ["./src/components"],
+      "@container": ["./src/container"],
+      "@helpers": ["./src/helpers"],
+      "@utils": ["./src/utils"],
+      "@constants": ["./src/constants"],
+      "@hooks": ["./src/hooks"],
+      "@types": ["./src/types"]
+    }
+```
+
 ### Sử dụng mã script
 
 Thêm lệnh thực thi nhanh nếu cần trong tệp package.json:

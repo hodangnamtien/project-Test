@@ -1,10 +1,6 @@
-# React Native Template
+# STUDY SPACE APP
 
-[![Moove It](https://circleci.com/gh/moove-it/react-native-template.svg?style=svg)](https://app.circleci.com/pipelines/github/moove-it/react-native-template?branch=master)
-
-This project aims to be a strong foundation for react-native applications. It provides a clear and organized structure, core dependencies, and boilerplate to jumpstart development.
-
-## Prerequisites
+## Điều kiện tiên quyết
 
 - [Node.js > v16](https://nodejs.org) and [yarn](https://yarnpkg.com/)
 - [Xcode >12](https://developer.apple.com/xcode)
@@ -12,7 +8,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Android Studio and Android SDK](https://developer.android.com/studio)
 
-## Dependencies
+## Phụ thuộc
 
 - [axios](https://github.com/axios/axios) gọi api.
 - [react-navigation](https://reactnavigation.org/) điều hướng màn hình.
@@ -104,8 +100,9 @@ This template follows a very simple project structure:
 
   - `api`: Nơi chứa các api.
   - `assets`: Là nơi chứa ảnh, icon, và fonts của app.
+    > Quy tắc đặt tên cho image, ví dụ như sau: classrom, course_list
+    > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
   - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...),
-    > djs
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
   - `containers`: Chứa các màn hình của app.

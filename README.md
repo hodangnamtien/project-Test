@@ -171,9 +171,10 @@ Ví dụ:
  },
 ```
 
-## Styleguide
+## Tối ưu mã
 
-For coding styling, we decided to go with Prettier - Code formatter
+Dùng extension "Prettier - Code formatter" đề định dạng lại code.
+Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
 
 # How to use it
 

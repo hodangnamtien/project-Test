@@ -104,10 +104,11 @@ This template follows a very simple project structure:
 
   - `api`: Nơi chứa các api.
   - `assets`: Là nơi chứa ảnh, icon, và fonts của app.
-  - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...)
+  - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...),
+    > djs
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
-  - `containers`: Chứa các màn hình của app. - `screens`: Folder that contains all your application screens/features.
+  - `containers`: Chứa các màn hình của app.
     - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
       - `component`: các component được dùng riêng cho thư mục này.
       - `Screen.tsx` chứa UI.

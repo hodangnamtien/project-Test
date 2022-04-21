@@ -100,8 +100,11 @@ This template follows a very simple project structure:
 
   - `api`: Nơi chứa các api.
   - `assets`: Là nơi chứa ảnh, icon, và fonts của app.
+
     > Quy tắc đặt tên cho image, ví dụ như sau: classrom, course_list
+
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
+
   - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...),
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...

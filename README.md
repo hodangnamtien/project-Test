@@ -21,13 +21,16 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) lưu dữ liệu vào local.
 - [redux-persist](https://github.com/rt2zz/redux-persist) lấy dữ liệu đã lưu vào local và đưa vào redux.
 - [redux-saga](https://redux-saga.js.org/)
+- [redux-unfold-saga]()
+- [redux-devtools-extension]()
 - [jest](https://facebook.github.io/jest/) and [react-native-testing-library](https://callstack.github.io/react-native-testing-library/) kiểm thử.
 - [react-vector-icons]() lấy icon cho app.
 - [react-native-reanimated]() code hiệu ứng cho app.
 - [react-native-calendars]() cấu hình component lịch cho app.
 - [react-native-fast-image]() xử lý khi dữ liệu trả về có nhiều hình ảnh.
 - [react-native-fbsdk-next]() tích hợp tính năng đăng nhập Facebook.
-- [@react-native-google-signin/google-signin] tích hợp tính năng đăng nhập Google.
+- [@react-native-google-signin/google-signin]() tích hợp tính năng đăng nhập Google.
+- [@react-native-community/push-notification-ios]() bắn thông báo cho ios.
 - [react-native-device-info]() lấy thông tin của thiết bị.
 - [react-native-gesture-handler]() các thư viện khác yêu cầu.
 - [react-native-image-crop-picker]() crop hình ảnh.
@@ -36,7 +39,8 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [@gorhom/portal]()
 - [@gorhom/bottom-sheet]()
 - [react-native-splash-screen]()
-- [react-native-svg]() xử lý svg -[react-native-text-ticker]() chạy chữ.
+- [react-native-svg]() xử lý svg
+- [react-native-text-ticker]() chạy chữ.
 - [react-native-safe-area-context]()
 - [react-native-screens]()
 - [react-native-slider]()
@@ -44,15 +48,14 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-responsive-screen]()
 - [i18next]() đa ngôn ngữ.
 - [moment]() xử lý thời gian.
-- [lodash] xử lý javascript.
-- [@react-native-community/push-notification-ios] bắn thông báo cho ios.
+- [lodash]() xử lý javascript.
 - [@react-navigation/bottom-tab]()
 - [react-native-background-timer]()
 - [react-native-snap-carousel]()
 - [react-native-camera]()
 - [react-native-qrcode-scanner]()
 - [react-native-qrcode-svg]()
-- [react-native-safe-area-context]()
+- [react-native-safe-area-context]
 - [react-native-video]()
 
 ## Usage

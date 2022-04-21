@@ -21,49 +21,48 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) lưu dữ liệu vào local.
 - [redux-persist](https://github.com/rt2zz/redux-persist) lấy dữ liệu đã lưu vào local và đưa vào redux.
 - [redux-saga](https://redux-saga.js.org/)
-- [redux-unfold-saga]()
-- [redux-devtools-extension]()
+- [redux-unfold-saga](https://github.com/manhhailua/redux-unfold-saga)
+- [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
 - [jest](https://facebook.github.io/jest/) kiểm thử.
-- [react-vector-icons]() lấy icon cho app.
-- [react-native-reanimated]() code hiệu ứng cho app.
-- [react-native-calendars]() cấu hình component lịch cho app.
-- [react-native-fast-image]() xử lý khi dữ liệu trả về có nhiều hình ảnh.
-- [react-native-fbsdk-next]() tích hợp tính năng đăng nhập Facebook.
-- [@react-native-google-signin/google-signin]() tích hợp tính năng đăng nhập Google.
+- [react-vector-icons](https://github.com/oblador/react-native-vector-icons) lấy icon cho app.
+- [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) code hiệu ứng cho app.
+- [react-native-calendars](https://github.com/wix/react-native-calendars) cấu hình component lịch cho app.
+- [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image) xử lý khi dữ liệu trả về có nhiều hình ảnh.
+- [react-native-fbsdk-next](https://github.com/thebergamo/react-native-fbsdk-next) tích hợp tính năng đăng nhập Facebook.
+- [@react-native-google-signin/google-signin](https://github.com/react-native-google-signin/google-signin) tích hợp tính năng đăng nhập Google.
 - [@react-native-community/push-notification-ios]() bắn thông báo cho ios.
-- [react-native-push-notification]()
-- [react-native-device-info]() lấy thông tin của thiết bị.
-- [react-native-gesture-handler]() các thư viện khác yêu cầu.
-- [react-native-image-crop-picker]() crop hình ảnh.
-- [react-native-linear-gradient]() tạo nền linear-gradient.
-- [react-native-modalize]() xử lý bottomSheet
-- [@gorhom/portal]()
-- [@gorhom/bottom-sheet]()
-- [react-native-splash-screen]()
-- [react-native-svg]()
-- [react-native-text-ticker]()
-- [react-native-safe-area-context]()
-- [react-native-screens]()
-- [react-native-slider]()
-- [react-native-responsive-fontsize]()
-- [react-native-responsive-screen]()
-- [react-i18next]()
-- [moment]()
-- [lodash]()
-- [@react-navigation/bottom-tab]()
-- [react-native-background-timer]()
-- [react-native-snap-carousel]()
-- [react-native-camera]()
-- [react-native-qrcode-scanner]()
-- [react-native-qrcode-svg]()
-- [react-native-safe-area-context]()
-- [react-native-video]()
-- [yup]()
-- [react-native-permissions]()
-- [react-native-elements]()
-- [react-native-dropdownalert]()
-- [react-native-animatable]()
-- [@react-native-community/netinfo]()
+- [react-native-push-notification](https://github.com/zo0r/react-native-push-notification)
+- [react-native-device-info](https://github.com/react-native-device-info/react-native-device-info) lấy thông tin của thiết bị.
+- [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler) các thư viện khác yêu cầu.
+- [react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) crop hình ảnh.
+- [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient) tạo nền linear-gradient.
+- [react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) xử lý bottomSheet
+- [@gorhom/portal](https://github.com/gorhom/react-native-portal)
+- [@gorhom/bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet)
+- [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
+- [react-native-svg](https://github.com/react-native-svg/react-native-svg)
+- [react-native-text-ticker](https://github.com/deanhet/react-native-text-ticker)
+- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
+- [react-native-screens](https://github.com/software-mansion/react-native-screens)
+- [react-native-slider](https://github.com/callstack/react-native-slider)
+- [react-native-responsive-fontsize](https://www.npmjs.com/package/react-native-responsive-fontsize)
+- [react-native-responsive-screen](https://github.com/marudy/react-native-responsive-screen)
+- [react-i18next](https://react.i18next.com/)
+- [moment](https://momentjs.com/docs/)
+- [lodash](https://github.com/lodash/lodash)
+- [@react-navigation/bottom-tab](https://reactnavigation.org/docs/bottom-tab-navigator/)
+- [react-native-background-timer](https://github.com/ocetnik/react-native-background-timer)
+- [react-native-snap-carousel](https://github.com/meliorence/react-native-snap-carousel)
+- [react-native-camera](https://github.com/react-native-camera/react-native-camera)
+- [react-native-qrcode-scanner](https://github.com/moaazsidat/react-native-qrcode-scanner)
+- [react-native-qrcode-svg](https://github.com/awesomejerry/react-native-qrcode-svg)
+- [react-native-video](https://github.com/react-native-video/react-native-video)
+- [yup](https://github.com/jquense/yup)
+- [react-native-permissions](https://github.com/zoontek/react-native-permissions)
+- [react-native-elements](https://reactnativeelements.com/)
+- [react-native-dropdownalert](https://github.com/testshallpass/react-native-dropdownalert)
+- [react-native-animatable](https://github.com/oblador/react-native-animatable)
+- [@react-native-community/netinfo](https://github.com/react-native-netinfo/react-native-netinfo)
 
 ## Usage
 

@@ -208,7 +208,7 @@ Không đặt tên bằng Số, tiếng Việt , không đúng nghĩa hoặc vô
 
 ```js
 import { colorOption } from "@constans";
-import { View, Text } from "react-native";
+
 const CustomButton = () => {
   return (
     <View style={styles.viewColor}>
@@ -219,4 +219,20 @@ const CustomButton = () => {
 const styles = StyleSheet.create({
   viewColor: colorOption.red,
 });
+```
+
+- Các trạng thái màu sắc của chữ, icon thay đổi theo `theme` được dùng như sau:
+
+```js
+import { colorOption } from "@constans";
+
+import { useTheme } from "@hooks";
+const CustomButton = () => {
+  const { colors } = useTheme();
+  return (
+    <View style={styles.viewColor}>
+      <Text style={{ color: colors.primary_text }}>Màu chữ</Text>
+    </View>
+  );
+};
 ```

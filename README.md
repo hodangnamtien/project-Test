@@ -14,28 +14,35 @@ This project aims to be a strong foundation for react-native applications. It pr
 
 ## Dependencies
 
-- [axios](https://github.com/axios/axios) dùng để gọi api.
-- [react-navigation](https://reactnavigation.org/) dùng để điều hướng màn hình.
-- [redux](https://redux.js.org/) để quản lý `global state`.
+- [axios](https://github.com/axios/axios) gọi api.
+- [react-navigation](https://reactnavigation.org/) điều hướng màn hình.
+- [redux](https://redux.js.org/) quản lý `global state`.
 - [redux-toolkit](https://redux-toolkit.js.org/)
-- [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) dùng để lưu dữ liệu vào local.
-- [redux-persist](https://github.com/rt2zz/redux-persist) dùng để lấy dữ liệu đã lưu vào local và đưa vào redux.
+- [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) lưu dữ liệu vào local.
+- [redux-persist](https://github.com/rt2zz/redux-persist) lấy dữ liệu đã lưu vào local và đưa vào redux.
 - [redux-saga](https://redux-saga.js.org/)
-- [jest](https://facebook.github.io/jest/) and [react-native-testing-library](https://callstack.github.io/react-native-testing-library/) dùng để kiểm thử.
-- [react-vector-icons]() dùng để lấy icon cho app.
-- [react-native-reanimated]() dùng để code hiệu ứng cho app.
-- [react-native-calendars]() dùng để cấu hình component lịch cho app.
-- [react-native-fast-image]() dùng để xử lý khi dữ liệu trả về có nhiều hình ảnh.
-- [react-native-fbsdk-next]() dùng để tích hợp tính năng đăng nhập Facebook.
-- [react-native-device-info]() dùng để lấy thông tin kết nối của mạng.
+- [jest](https://facebook.github.io/jest/) and [react-native-testing-library](https://callstack.github.io/react-native-testing-library/) kiểm thử.
+- [react-vector-icons]() lấy icon cho app.
+- [react-native-reanimated]() code hiệu ứng cho app.
+- [react-native-calendars]() cấu hình component lịch cho app.
+- [react-native-fast-image]() xử lý khi dữ liệu trả về có nhiều hình ảnh.
+- [react-native-fbsdk-next]() tích hợp tính năng đăng nhập Facebook.
+- [react-native-device-info]() lấy thông tin kết nối của mạng.
 - [react-native-gesture-handler]() các thư viện khác yêu cầu.
-- [react-native-image-crop-picker]() dùng để crop hình ảnh.
-- [react-native-linear-gradient]() dùng để tạo nền linear-gradient.
+- [react-native-image-crop-picker]() crop hình ảnh.
+- [react-native-linear-gradient]() tạo nền linear-gradient.
 - [react-native-modalize]() xử lý bottomSheet
 - [@gorhom/portal]()
 - [@gorhom/bottom-sheet]()
 - [react-native-splash-screen]()
 - [react-native-svg]() xử lý svg -[react-native-text-ticker]() chạy chữ.
+- [react-native-safe-area-context]()
+- [react-native-screens]()
+- [react-native-slider]()
+- [react-native-responsive-fontsize]()
+- [react-native-responsive-screen]()
+- [i18next]() đã ngôn ngữ.
+- [moment]() xử lý thời gian.
 
 ## Usage
 

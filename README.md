@@ -4,14 +4,14 @@
 
 This project aims to be a strong foundation for react-native applications. It provides a clear and organized structure, core dependencies, and boilerplate to jumpstart development.
 
-## Prerequisites (Điều kiện tiên quyết)
+## Điều kiện tiên quyết
 
-- [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
+- [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [yarn](https://github.com/nvm-sh/nvm))
 - [Watchman](https://facebook.github.io/watchman)
-- [Xcode 12](https://developer.apple.com/xcode)
-- [Cocoapods 1.10.1](https://cocoapods.org)
+- [Xcode >12](https://developer.apple.com/xcode)
+- [Cocoapods 1.11.2](https://cocoapods.org)
 - [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Android Studio and Android SDK](https://developer.android.com/studio)
+- [Android Studio và Android SDK](https://developer.android.com/studio)
 
 ## Base dependencies
 

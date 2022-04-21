@@ -31,6 +31,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-fbsdk-next]() tích hợp tính năng đăng nhập Facebook.
 - [@react-native-google-signin/google-signin]() tích hợp tính năng đăng nhập Google.
 - [@react-native-community/push-notification-ios]() bắn thông báo cho ios.
+- [react-native-push-notification]()
 - [react-native-device-info]() lấy thông tin của thiết bị.
 - [react-native-gesture-handler]() các thư viện khác yêu cầu.
 - [react-native-image-crop-picker]() crop hình ảnh.
@@ -46,7 +47,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-slider]()
 - [react-native-responsive-fontsize]()
 - [react-native-responsive-screen]()
-- [i18next]()
+- [react-i18next]()
 - [moment]()
 - [lodash]()
 - [@react-navigation/bottom-tab]()
@@ -57,6 +58,12 @@ This project aims to be a strong foundation for react-native applications. It pr
 - [react-native-qrcode-svg]()
 - [react-native-safe-area-context]()
 - [react-native-video]()
+- [yup]()
+- [react-native-permissions]()
+- [react-native-elements]()
+- [react-native-dropdownalert]()
+- [react-native-animatable]()
+- [@react-native-community/netinfo]()
 
 ## Usage
 

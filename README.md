@@ -143,9 +143,9 @@ This template follows a very simple project structure:
 
 To customize the splash screen (logo and background color) use the CLI provided in the [official docs](https://github.com/zoontek/react-native-bootsplash#assets-generation).
 
-## Setup environments
+## Thiết lập môi trường
 
-### Using scripts from console
+### Sử dụng mã script
 
 Thêm lệnh thực thi nhanh nếu cần trong tệp package.json:
 Ví dụ:

@@ -108,10 +108,11 @@ This template follows a very simple project structure:
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
   - `containers`: Chứa các màn hình của app. - `screens`: Folder that contains all your application screens/features.
-    - `Screen`: Each screen should be stored inside its folder and inside it a file for its code and a separate one for the styles and tests.
-      - `Screen.js`
-      - `Screen.styles.js`
-      - `Screen.test.js`
+    - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
+      - `component`: các component được dùng riêng cho thư mục này.
+      - `Screen.tsx` chứa UI.
+      - `styles.ts`: chứa css.
+      - `hook.ts`: chưa logic, state.
   - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
   - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
   - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.

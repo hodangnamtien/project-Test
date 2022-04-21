@@ -133,6 +133,33 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
     }
 ```
 
+và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json` :
+
+```js
+{
+  "name": "@navigation"
+}
+
+
+
+```
+
+và file index.ts như sau:
+
+```js
+export * from "./MainContainer/MainContainer";
+```
+
+và cách sử dụng
+
+```js
+import {Button} from '@component'
+
+thay cho
+
+import {Button} from './src/component/Button'
+```
+
 ### Sử dụng mã script
 
 Thêm lệnh thực thi nhanh nếu cần trong tệp package.json:

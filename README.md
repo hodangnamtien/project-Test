@@ -130,19 +130,31 @@ To customize the splash screen (logo and background color) use the CLI provided 
 
 ### Using scripts from console
 
-The template already has scripts to execute the project calling a specific environment defined into the package.json file. Keep in mind that if you are going to create new `envs` you have to define the script to build the project properly.
+Thêm lệnh thực thi nhanh nếu cần trong tệp package.json:
+Ví dụ:
 
-To define which env you want to use, just keep the structure `yarn [platform]: [environment]`
+```js
+ "scripts": {
+   "android": "react-native run-android",
+   "apk": "cd android &&./gradlew clean && ./gradlew assembleRelease && cd ..",
+   "app-apk": "cd android &&./gradlew app:assembleRelease && cd ..",
+   "variant": "react-native run-android --variant=release",
+   "rm-apk": "adb shell pm uninstall --user 0 vn.studyspace",
+   "clear-cache": "adb shell pm clear vn.studyspace",
+   "aab": "cd android &&./gradlew clean && ./gradlew bundleRelease && cd ..",
+   "rm": "rm -rf ./node_modules",
+   "rm-pod": "cd ios && rm Podfile.lock",
+   "pod": "npx pod-install",
+   "link": "npx react-native link",
+   "upgrade": "npx react-native upgrade",
+   "ios": "react-native run-ios",
+   "start": "react-native start",
+   "test": "jest",
+   "lint": "eslint ."
+ },
+```
 
-DEV: `yarn ios` or `yarn android`
-
-STG: `yarn ios:staging` or `yarn android:staging`
-
-PROD: `yarn ios:prod` o `yarn android:prod`
-
-Also, you can use npm following the same rule as before: `npm run ios:staging`
-
-Modify the environment variables files in root folder (`.env.development`, `.env.production` and `.env.staging`)
+Ngoài ra, bạn có thể sử dụng npm theo quy tắc tương tự như trước: npm run ios: staging
 
 #### Android
 

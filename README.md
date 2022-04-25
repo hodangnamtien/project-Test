@@ -269,26 +269,26 @@ Cấu trúc:
 
   - `CallApi`: Chứa các api của app.
 
-        > Quy tắc đặt tên api:
+          > Quy tắc đặt tên api:
 
-        Để danh từ số ít cho các tác vụ.
+    Để danh từ số ít cho các tác vụ:
 
-  | Tác vụ | Tên    |
-  | ------ | ------ |
-  | Xem    | Get    |
-  | Thêm   | Create |
-  | Xóa    | Delete |
-  | Sửa    | Edit   |
+    | Tác vụ | Tên    |
+    | ------ | ------ |
+    | Xem    | Get    |
+    | Thêm   | Create |
+    | Xóa    | Delete |
+    | Sửa    | Edit   |
 
-  Cú pháp: `create/update/delete/get/confirm + danh từ số ít`.
+  Cú pháp: `Get/Create/Delete/Edit + danh từ số ít/ Danh từ số nhiều + Service`.
 
-Ví dụ: createEmployee, getEmployee, deleteEmployee, createEmployeeCategory
+Ví dụ: GetEmployeeService, GetEmployeesService
 
 - Để danh từ số ít cho trường hợp lấy thông tin bộ lọc.
 
-  Cú pháp: `get + danh từ số ít + filters`
+  Cú pháp: `Get + danh từ số ít + Filters + Service`
 
-Ví dụ: getEmployeeFilter, getEmployeeCategoryFilters.
+Ví dụ: GetEmployeeFilterService, GetEmployeeCategoryFiltersService.
 
 - `Service`:
   - `endPoint.ts`: Chứa các biến URL `Application Configuration Endpoint` môi trường, bao gồm: DEV , STAGING, PROD.

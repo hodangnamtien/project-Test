@@ -278,9 +278,13 @@ Quy ước đặt tên api sử dụng trong app:
 ### HTTP status code và message
 
 `200`: Mọi thứ đang hoạt động.
+
 `400`: Bad request - Yêu cầu không hợp lệ.
+
 `403`: Forbidden resource - Tài nguyên bị cấm.
+
 `404`: Lỗi ứng dụng khách hoạt động sai (có thể do truyền sai giá trị, ...).
+
 `500`: Lỗi máy chủ nội bộ.
 
 ### Phân trang - Paging:

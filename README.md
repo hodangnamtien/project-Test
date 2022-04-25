@@ -291,8 +291,17 @@ Cấu trúc:
   Ví dụ: GetEmployeeFilterService, GetEmployeeCategoryFiltersService.
 
 - `Service`:
+
   - `endPoint.ts`: Chứa các biến URL `Application Configuration Endpoint` môi trường, bao gồm: DEV , STAGING, PROD.
   - `Services.ts`: Config base call api chung.
+
+- `index.ts`: Export tất cả dường dẫn api trong thư mục `CallApi`.
+
+  > Ví dụ sử dụng :
+
+  ```js
+  import { GetEmployeeService } from "@api";
+  ```
 
 ### HTTP status code và message
 

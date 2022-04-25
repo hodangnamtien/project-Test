@@ -258,7 +258,7 @@ const CustomButton = () => {
   `${colorOption.red}20`; // Màu đỏ 20%
   ```
 
-  ### Api connection handler
+### Api connection handler
 
-  App sử dụng `Axios` để gọi các api của nền tảng Study Space.
-  Ngoài ra có sử dụng `fetch` để gọi api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS
+App sử dụng `Axios` để gọi các api của nền tảng Study Space.
+Ngoài ra có sử dụng `fetch` để gọi các api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS.

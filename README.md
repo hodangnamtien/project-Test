@@ -423,7 +423,22 @@ Ví dụ về file en.json:
 
 Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`.
 
-Handler mã màu một số thành phần xem tại `/src/hooks/useTheme.ts` và ``
+Quốc ước mã màu chữ:
+
+- Dành cho title và body:
+
+| Tên            | Mapping Figma           |
+| -------------- | ----------------------- |
+| primary_text   | Text/Back #444444       |
+| secondary_text | Text/Grey #C4C4C4       |
+| tertiary_text  | Text/Grey Black #898989 |
+
+- Dành cho background:
+
+| Tên              | Mapping Figma |
+| ---------------- | ------------- |
+| background       | #E5E5E5       |
+| background_light | #FFFFFF       |
 
 Trả về giá trị `light` hoặc `dark`.
 

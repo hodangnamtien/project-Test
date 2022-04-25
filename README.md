@@ -421,7 +421,9 @@ Ví dụ về file en.json:
 
 ### Tùy chỉnh darkmode và mã màu
 
-Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`
+Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`.
+
+Handler mã màu một số thành phần xem tại `/src/hooks/useTheme.ts` và ``
 
 Trả về giá trị `light` hoặc `dark`.
 
@@ -453,8 +455,6 @@ const CustomButton = () => {
   );
 };
 ```
-
-Màu sắc:
 
 Handler mã màu chữ / icon / nền không thay đổi theo `mode` theme:
 

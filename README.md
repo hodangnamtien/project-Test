@@ -2,6 +2,8 @@
 
 > Dự án sử dụng framework `React Native` và sử dụng ngôn ngữ `TypeScript` để xây dựng app.
 
+### Features
+
 ## Điều kiện tiên quyết
 
 - [React Native CLI v0.66.4 ](https://reactnative.dev/)

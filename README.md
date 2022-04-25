@@ -472,7 +472,7 @@ const CustomButton = () => {
 
 - Để tạo trạng thái disabled ta có 2 cách:
 
-1. Thay đổi màu sắc: Áp dụng đối với những thành phần nhỏ, được define kỹ và sử dụng lại nhiều (button, toggle, checkbox, radio, input)
+1. Thay đổi màu sắc: Áp dụng đối với những thành phần nhỏ, được define kỹ và sử dụng lại nhiều (button, toggle, checkbox, radio, input).
    Cách sử dụng:
 
 ```js
@@ -484,7 +484,7 @@ const CustomButton = () => {
 
 2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel):
 
-- Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...)
+- Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...).
   Cách sử dụng:
 
 ```js

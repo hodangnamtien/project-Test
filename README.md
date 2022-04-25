@@ -4,7 +4,7 @@
 
 ## Điều kiện tiên quyết
 
-- [React Native v0.66.4 ](https://reactnative.dev/)
+- [React Native CLI v0.66.4 ](https://reactnative.dev/)
 - [Node.js > v16](https://nodejs.org) and [yarn](https://yarnpkg.com/)
 - [Xcode >12](https://developer.apple.com/xcode)
 - [Cocoapods 1.11.2](https://cocoapods.org)

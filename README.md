@@ -75,7 +75,7 @@ sau đó
  yarn android // mở emulator
  > Support: Platform macOS + window
 
- yarn ios
+ yarn ios // mở simulator
  > Support: Platform macOS(only)
 
 ```

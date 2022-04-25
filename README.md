@@ -5,7 +5,7 @@
 ### Features
 
 - Hỗ trợ Dark mode
-- Hỗ trợ 2 ngôn ngữ: Tiếng Việt/Tiếng Anh
+- Hỗ trợ 2 ngôn ngữ: Tiếng Việt / Tiếng Anh
 
 ## Điều kiện tiên quyết
 

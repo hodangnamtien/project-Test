@@ -353,7 +353,7 @@ offset: (page - 1) * limit;
 Phông chữ cần được đặt tại /src/assets/fonts.
 
 App sử dụng font [`Quicksand`](https://fonts.google.com/specimen/Quicksand).
-Cấu trúc folder fonts [`xem thêm`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
+Cấu trúc folder fonts [`Document`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
 
 | Font weight | Tên     |
 | ----------- | ------- |
@@ -384,7 +384,7 @@ export const Images = {
 
 ### Tùy chỉnh ngôn ngữ
 
-[`document`](https://github.com/AlexanderZaytsev/react-native-i18n)
+[`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
 
 Tùy chỉnh text ngôn ngữ tại /src/utils/languages/languages.
 

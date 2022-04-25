@@ -443,13 +443,14 @@ Quy ước mã màu chữ:
 | background_light | #FFFFFF       |
 
 - Các trạng thái màu sắc:
-  | Tên | Mapping Figma |
-  | -------------- | ----------------------- |
-  | primary_main | |
-  | secondary_main | |
-  | hyperlink \| infor | |
-  | warning | |
-  | success \| infor | |
+
+| Tên                | Mapping Figma |
+| ------------------ | ------------- |
+| primary_main       |               |
+| secondary_main     |               |
+| hyperlink \| infor |               |
+| warning            |               |
+| success \| infor   |               |
 
 Trả về giá trị `light` hoặc `dark`.
 

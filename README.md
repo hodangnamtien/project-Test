@@ -432,6 +432,8 @@ Quy ước mã màu chữ:
 | primary_text   | Text/Back #444444       |
 | secondary_text | Text/Grey #C4C4C4       |
 | tertiary_text  | Text/Grey Black #898989 |
+| error_text     |                         |
+| disable_text   |                         |
 
 - Dành cho background:
 
@@ -443,9 +445,11 @@ Quy ước mã màu chữ:
 - Các trạng thái màu sắc:
   | Tên | Mapping Figma |
   | -------------- | ----------------------- |
-  | primary_main | Text/Back #444444 |
-  | secondary_main | Text/Grey #C4C4C4 |
-  | hyperlink \| infor | Text/Grey Black #898989 |
+  | primary_main | |
+  | secondary_main | |
+  | hyperlink \| infor | |
+  | warning | |
+  | success \| infor | |
 
 Trả về giá trị `light` hoặc `dark`.
 

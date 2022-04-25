@@ -139,6 +139,7 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
     }
 ```
 
+(Sử dụng package.json để tránh đường dẫn tương đối)
 và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json` :
 
 ```js
@@ -150,7 +151,7 @@ và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json` :
 
 ```
 
-và file index.ts như sau:
+và kê khai đường dẫn vào file index.ts như sau:
 
 ```js
 export * from "./MainContainer/MainContainer";
@@ -380,3 +381,5 @@ export const Images = {
   },
 };
 ```
+
+### Tùy chỉnh ngôn ngữ

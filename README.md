@@ -458,7 +458,6 @@ Handler mã màu chữ / icon / nền không thay đổi theo `mode` theme:
 import { colorOption } from "@constans";
 
 const CustomButton = () => {
-  const { colors } = useTheme();
   return <View style={{ backgroundColor: colorOption.red }}></View>;
 };
 ```
@@ -474,7 +473,14 @@ const CustomButton = () => {
 - Để tạo trạng thái disabled ta có 2 cách:
 
 1. Thay đổi màu sắc: Áp dụng đối với những thành phần nhỏ, được define kỹ và sử dụng lại nhiều (button, toggle, checkbox, radio, input)
-   Ví dụ:
+   Cách sử dụng:
+
+```js
+const CustomButton = () => {
+  const { colors } = useTheme();
+  return <View style={{ backgroundColor: colors.disable }}></View>;
+};
+```
 
 2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel)
    Chi tiết:

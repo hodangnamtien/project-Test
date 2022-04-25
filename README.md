@@ -471,6 +471,6 @@ const CustomButton = () => {
 
 Đối với các trạng thái `Disabled`: - Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.
 
-    - Trạng thái disabled được sử dụng khi chỉ thể có nhiều trạng thái như: button, toggle, checkbox, radio, input, icon, image, list, card và action
+- Trạng thái disabled được sử dụng khi chỉ thể có nhiều trạng thái như: button, toggle, checkbox, radio, input, icon, image, list, card và action
 
 ### License

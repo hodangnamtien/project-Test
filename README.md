@@ -73,7 +73,7 @@
       - ic_home@2x.png
       - ic_home@3x.png
 
-    > Quy tắc đặt tên cho image, ví dụ như sau: classrom, course_list
+    > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
 
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
 
@@ -349,11 +349,33 @@ offset: (page - 1) * limit;
 
 ### Tùy chỉnh font chữ
 
+Phông chữ cần được đặt tại /src/assets/fonts.
+
 App sử dụng font [`Quicksand`](https://fonts.google.com/specimen/Quicksand).
 Cấu trúc folder fonts [`xem thêm`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
 
-| Font weigth | Tên     |
+| Font weight | Tên     |
 | ----------- | ------- |
 | 400         | Regular |
 | 500         | Medium  |
 | 700         | Bold    |
+
+### Generate images/icons
+
+Tạo ảnh mới trong thư mục /src/assets/images.
+Tạo icon mới trong thư mục /src/assets/icons.
+
+Sau đó thêm đường dẫn chúng vào tệp `Images.ts` trong thư mục /src/constants/Images:
+
+```js
+export const Images = {
+  ic_check: require("../assets/icons/ic_check/ic_check.png"), // Đối với icon public
+  logo: require("../assets/images/logo/logo.png"), // Đối với images public
+
+  // Đối với các images hoặc icon private ta dùng cấu trúc sau:
+  profile: {
+    order_drink: require("../assets/images/order_drink/order_drink.png"),
+    ic_personal: require("../assets/icons/ic_personal/ic_personal.png"),
+  },
+};
+```

@@ -384,6 +384,8 @@ export const Images = {
 
 ### Tùy chỉnh ngôn ngữ
 
+[`document`](https://react.i18next.com/)
+
 Tùy chỉnh text ngôn ngữ tại /src/utils/languages/languages.
 
 Ví dụ về file en.json:

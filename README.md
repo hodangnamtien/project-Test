@@ -77,6 +77,8 @@ Install Pods
 
 ```js
 cd ios && pod install
+
+hoặc npx pod-install
 ```
 
 Điều hướng đến thư mục dự án
@@ -95,9 +97,11 @@ sau đó
 
 ```js
  yarn android //  Mở emulator.
+ hoặc npx react-native run-android
  > Support: Platform macOS + window
 
  yarn ios //  Mở simulator.
+ hoặc npx react-native run-ios
  > Support: Platform macOS(only)
 
 ```

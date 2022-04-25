@@ -275,6 +275,8 @@ Cấu trúc:
 
   ### Phân trang - Paging:
 
+  Thay vì lấy toàn bộ records, chúng ta sẽ lấy với số lượng nhất định => Điều này cũng giúp giảm tải cho server.
+
   Để lấy các records theo trang, chúng ta truyền tham số như : `offset` và `limit` để lấy ra những dữ liệu phù hợp.
   Cấu trúc kiểu dữ liệu của `input` phân trang như sau:
 
@@ -284,3 +286,14 @@ Cấu trúc:
     offset: number;
   }
   ```
+
+  Ví dụ ta cần lấy 10 records thì input như sau:
+
+  ```js
+  pagination: {
+    limit: 10;
+    offset: 1;
+  }
+  ```
+
+  Cụ thể trong app sẽ xử lý logic phân trang theo công thức sau:

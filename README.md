@@ -437,3 +437,5 @@ Ví dụ về file en.json:
   },
 }
 ```
+
+### License

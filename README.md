@@ -11,12 +11,12 @@
 
 ## Phụ thuộc
 
-- [axios](https://github.com/axios/axios) gọi api.
-- [react-navigation](https://reactnavigation.org/) điều hướng màn hình.
-- [redux](https://redux.js.org/) quản lý `global state`.
+- [axios](https://github.com/axios/axios) for networking.
+- [react-navigation](https://reactnavigation.org/) navigation library, it is used to navigate to another page or screen.
+- [redux](https://redux.js.org/) for state management.
 - [redux-toolkit](https://redux-toolkit.js.org/)
 - [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) lưu dữ liệu vào local.
-- [redux-persist](https://github.com/rt2zz/redux-persist) lấy dữ liệu đã lưu vào local và đưa vào redux.
+- [redux-persist](https://github.com/rt2zz/redux-persist) as persistance layer.
 - [redux-saga](https://redux-saga.js.org/)
 - [redux-unfold-saga](https://github.com/manhhailua/redux-unfold-saga)
 - [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)

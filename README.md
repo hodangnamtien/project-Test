@@ -61,6 +61,25 @@
 - [react-native-animatable](https://github.com/oblador/react-native-animatable)
 - [@react-native-community/netinfo](https://github.com/react-native-netinfo/react-native-netinfo)
 
+## Usage
+
+Khởi chạy app sử dụng:
+
+```js
+cd studyspace-app
+```
+
+sau đó
+
+```js
+ yarn android // mở emulator
+ > Support: Platform macOS + window
+
+ yarn ios
+ > Support: Platform macOS(only)
+
+```
+
 ## Cấu trúc thư mục
 
 - `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.

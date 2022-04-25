@@ -299,5 +299,7 @@ Cấu trúc:
 Đối với tham số `offset` app sẽ sử dụng theo công thức sau:
 
 ```js
-offset: (page - 1).limit;
+offset: (page - 1) * limit;
 ```
+
+Trong đó để gọi 10 item đầu tiên của danh sách thì giá trị tham số page truyền vào sẽ bằng 1.

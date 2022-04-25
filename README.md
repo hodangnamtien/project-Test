@@ -350,7 +350,7 @@ offset: (page - 1) * limit;
 
 ### Tùy chỉnh font chữ
 
-Phông chữ cần được đặt tại /src/assets/fonts.
+Phông chữ cần được đặt tại `/src/assets/fonts`.
 
 App sử dụng font [`Quicksand`](https://fonts.google.com/specimen/Quicksand).
 Cấu trúc folder fonts [`Document`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
@@ -363,8 +363,8 @@ Cấu trúc folder fonts [`Document`](https://ospfolio.com/two-way-to-change-def
 
 ### Generate images/icons
 
-Tạo ảnh mới trong thư mục /src/assets/images.
-Tạo icon mới trong thư mục /src/assets/icons.
+Tạo ảnh mới trong thư mục `/src/assets/images`.
+Tạo icon mới trong thư mục `/src/assets/icons`.
 
 Sau đó thêm đường dẫn chúng vào tệp `Images.ts` trong thư mục /src/constants/Images:
 

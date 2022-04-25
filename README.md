@@ -73,11 +73,11 @@
 git clone https://gitlab.com/studyspace_obee/studyspace-app
 ```
 
-cd react-native-starter && yarn install
+Install Pods
 
-# Install Pods
-
+```js
 cd ios && pod install
+```
 
 Điều hướng đến thư mục dự án
 

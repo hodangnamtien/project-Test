@@ -491,6 +491,6 @@ const CustomButton = () => {
 import { OPACITY_DISABLE } from "@constants";
 ```
 
-- Divider (line) phân chia giữa các component giữ 100% opacity
+- Divider (line) phân chia giữa các component giữ 100% opacity.
 
 ### License

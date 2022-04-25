@@ -297,4 +297,7 @@ Cấu trúc:
   ```
 
 Đối với tham số `offset` app sẽ sử dụng theo công thức sau:
-offset : (page - 1) . limit
+
+```js
+offset: (page - 1).limit;
+```

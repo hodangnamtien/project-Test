@@ -471,6 +471,13 @@ const CustomButton = () => {
 
 Đối với các trạng thái `Disabled`: - Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.
 
-- Trạng thái disabled được sử dụng khi chỉ thể có nhiều trạng thái như: button, toggle, checkbox, radio, input, icon, image, list, card và action
+- Để tạo trạng thái disabled ta có 2 cách:
+
+1. Thay đổi màu sắc: Áp dụng đối với những thành phần nhỏ, được define kỹ và sử dụng lại nhiều (button, toggle, checkbox, radio, input)
+2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel)
+   Chi tiết:
+
+   - Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...)
+   - Divider (line) phân chia giữa các component giữ 100% opacity
 
 ### License

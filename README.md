@@ -266,8 +266,21 @@ Ngoài ra có sử dụng method `fetch` để gọi các api third party, ví d
 Cấu trúc:
 
 - `api`
+
   - `CallApi`: Chứa các api của app.
     Quy tắc đặt tên api:
   - `Service`:
     - `endPoint.ts`: Chứa các biến URL config môi trường, bao gồm: DEV , STAGING, PROD.
     - `Services.ts`: Config base call api chung.
+
+  ### Phân trang - Paging:
+
+  Để lấy các records theo trang, chúng ta truyền tham số như : `offset` và `limit` để lấy ra những dữ liệu phù hợp.
+  Cấu trúc kiểu dữ liệu của `input` phân trang như sau:
+
+  ```js
+  pagination: {
+    limit: number;
+    offset: number;
+  }
+  ```

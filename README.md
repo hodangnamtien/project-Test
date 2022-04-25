@@ -273,46 +273,6 @@ export const MyButton: React.FC<Props> = () => {
 3. Text sử dụng component `ThemedText`.
 4. Sử dụng component `MainImage` cho những list có ảnh từ sever trả về.
 5. Sử dụng useNavigation và useRoute cho custom hook phải khải báo kiểu navigtionProp và routeProp.
-6. Về màu sắc
-
-- Các trạng thái màu sắc của chữ, icon không phụ thuộc vào `theme` được dùng như sau:
-
-```js
-import { colorOption } from "@constans";
-
-const CustomButton = () => {
-  return (
-    <View style={styles.viewColor}>
-      <Text>Màu chữ</Text>
-    </View>
-  );
-};
-const styles = StyleSheet.create({
-  viewColor: colorOption.red,
-});
-```
-
-- Các trạng thái màu sắc của chữ, icon thay đổi theo `theme` được dùng như sau:
-
-```js
-import { colorOption } from "@constans";
-
-import { useTheme } from "@hooks";
-const CustomButton = () => {
-  const { colors } = useTheme();
-  return (
-    <View style={styles.viewColor}>
-      <Text style={{ color: colors.primary_text }}>Màu chữ</Text>
-    </View>
-  );
-};
-```
-
-- Đối với các trạng thái màu sắc opacity: sử dụng theo cấu trúc như sau:
-
-  ```js
-  `${colorOption.red}20`; // Màu đỏ 20%
-  ```
 
 ### Api connection handler
 
@@ -458,5 +418,59 @@ Ví dụ về file en.json:
   },
 }
 ```
+
+### Tùy chỉnh darkmode và mã màu
+
+Trả về giá trị `light` hoặc `dark`.
+
+```js
+import { View, Text } from "react-native";
+import React from "react";
+import { useSelector } from "react-redux";
+
+export const Button: Reac.Fc = () => {
+  const mode = useSelector((root: IRootState) => root?.myTheme?.theme);
+  return (
+    <View>
+      <Text>{mode}</Text>
+    </View>
+  );
+};
+```
+
+Handler mã màu chữ / icon / nền thay đổi theo `mode` theme:
+
+```js
+import { useTheme } from "@hooks";
+const CustomButton = () => {
+  const { colors } = useTheme();
+  return (
+    <View style={styles.viewColor}>
+      <Text style={{ color: colors.primary_text }}>Màu chữ</Text>
+    </View>
+  );
+};
+```
+
+Handler mã màu chữ / icon / nền không thay đổi theo `mode` theme:
+
+```js
+import { colorOption } from "@constans";
+
+const CustomButton = () => {
+  const { colors } = useTheme();
+  return <View style={{ backgroundColor: colorOption.red }}></View>;
+};
+```
+
+Đối với các trạng thái màu sắc opacity: sử dụng theo cấu trúc như sau:
+
+```js
+`${colorOption.red}20`; // Màu đỏ 20%
+```
+
+Đối với các trạng thái `Disabled`: - Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.
+
+    - Trạng thái disabled được sử dụng khi chỉ thể có nhiều trạng thái như: button, toggle, checkbox, radio, input, icon, image, list, card và action
 
 ### License

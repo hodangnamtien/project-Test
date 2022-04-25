@@ -373,8 +373,8 @@ export const Images = {
   ic_check: require("../assets/icons/ic_check/ic_check.png"), // Đối với icon public
   logo: require("../assets/images/logo/logo.png"), // Đối với images public
 
-  // Đối với các images hoặc icon private ta dùng cấu trúc sau:
-  // Trong đó: key object chính là tên SCREEN sử dụng hình ảnh hoặc icon đó.
+  //  Đối với các images hoặc icon private ta dùng cấu trúc sau:
+  //  Trong đó: key object chính là tên SCREEN sử dụng hình ảnh hoặc icon đó.
   profile: {
     order_drink: require("../assets/images/order_drink/order_drink.png"),
     ic_personal: require("../assets/icons/ic_personal/ic_personal.png"),
@@ -383,3 +383,21 @@ export const Images = {
 ```
 
 ### Tùy chỉnh ngôn ngữ
+
+Tùy chỉnh text ngôn ngữ tại src/utils/languages/languages.
+
+Ví dụ về file en.json:
+
+```js
+{
+  // Đối với những text public
+  "signIn": "Sign in",
+
+  //  Đối với những text private cho từng màn hình ta dùng như sau:
+  //  Trong đó: key object chính là tên SCREEN.
+   "auth": {
+    "or": "Or",
+
+  },
+}
+```

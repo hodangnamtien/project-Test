@@ -1,5 +1,7 @@
 # Project Structure
 
+> Dự án sử dụng framework `React Native` và sử dụng `TypeScript` để xây dựng app.
+
 ## Điều kiện tiên quyết
 
 - [React Native v0.66.4 ](https://reactnative.dev/)

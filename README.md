@@ -67,16 +67,28 @@
 
 ## Usage
 
-Khởi chạy app sử dụng:
+Đầu tiên clone the repo:
+
+```js
+git clone https://gitlab.com/studyspace_obee/studyspace-app
+```
+
+cd react-native-starter && yarn install
+
+# Install Pods
+
+cd ios && pod install
+
+Điều hướng đến thư mục dự án
 
 ```js
 cd studyspace-app
 ```
 
-sau đó
+Cài đặt phụ thuộc
 
 ```js
-yarn install // Cài đặt các thư viện phụ thuộc cho dự án.
+yarn install
 ```
 
 sau đó

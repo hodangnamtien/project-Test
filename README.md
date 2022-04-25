@@ -421,7 +421,7 @@ Ví dụ về file en.json:
 
 ### Tùy chỉnh darkmode và mã màu
 
-Mã màu sử dụng là `Hex code`
+Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`
 
 Trả về giá trị `light` hoặc `dark`.
 

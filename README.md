@@ -140,11 +140,11 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
 ```
 
 (Sử dụng package.json để tránh đường dẫn tương đối)
-và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json` :
+và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json`, ví dụ như sau:
 
 ```js
 {
-  "name": "@navigation"
+  "name": "@component"
 }
 
 

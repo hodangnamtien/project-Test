@@ -296,4 +296,5 @@ Cấu trúc:
   }
   ```
 
-  Cụ thể trong app sẽ xử lý logic phân trang theo công thức sau:
+Đối với tham số `offset` app sẽ sử dụng theo công thức sau:
+offset : (page - 1) . limit

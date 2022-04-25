@@ -269,7 +269,7 @@ Cấu trúc:
 
   - `CallApi`: Chứa các api của app.
 
-          > Quy tắc đặt tên api:
+    Quy tắc đặt tên api:
 
     Để danh từ số ít cho các tác vụ:
 
@@ -293,8 +293,6 @@ Cấu trúc:
 - `Service`:
   - `endPoint.ts`: Chứa các biến URL `Application Configuration Endpoint` môi trường, bao gồm: DEV , STAGING, PROD.
   - `Services.ts`: Config base call api chung.
-
-Quy ước đặt tên api sử dụng trong app:
 
 ### HTTP status code và message
 

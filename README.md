@@ -482,11 +482,10 @@ const CustomButton = () => {
 };
 ```
 
-2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel)
-   Chi tiết:
+2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel):
 
-   - Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...)
-     Cách sử dụng:
+- Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...)
+  Cách sử dụng:
 
 ```js
 import { OPACITY_DISABLE } from "@constants";

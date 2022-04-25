@@ -423,7 +423,7 @@ Ví dụ về file en.json:
 
 Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`.
 
-Quốc ước mã màu chữ:
+Quy ước mã màu chữ:
 
 - Dành cho title và body:
 
@@ -439,6 +439,13 @@ Quốc ước mã màu chữ:
 | ---------------- | ------------- |
 | background       | #E5E5E5       |
 | background_light | #FFFFFF       |
+
+- Các trạng thái màu sắc:
+  | Tên | Mapping Figma |
+  | -------------- | ----------------------- |
+  | primary_main | Text/Back #444444 |
+  | secondary_main | Text/Grey #C4C4C4 |
+  | hyperlink \| infor | Text/Grey Black #898989 |
 
 Trả về giá trị `light` hoặc `dark`.
 

@@ -273,28 +273,38 @@ Cấu trúc:
     - `endPoint.ts`: Chứa các biến URL config môi trường, bao gồm: DEV , STAGING, PROD.
     - `Services.ts`: Config base call api chung.
 
-  ### Phân trang - Paging:
+Quy ước đặt tên api sử dụng trong app:
 
-  Thay vì lấy toàn bộ records, chúng ta sẽ lấy với số lượng nhất định => Điều này cũng giúp giảm tải cho server.
+### HTTP status code và message
 
-  Để lấy các records theo trang, chúng ta truyền tham số như : `offset` và `limit` để lấy ra những dữ liệu phù hợp.
-  Cấu trúc kiểu dữ liệu của `input` phân trang như sau:
+`200`: Mọi thứ đang hoạt động.
+`400`: Bad request - Yêu cầu không hợp lệ.
+`403`: Forbidden resource - Tài nguyên bị cấm.
+`404`: Lỗi ứng dụng khách hoạt động sai (có thể do truyền sai giá trị, ...).
+`500`: Lỗi máy chủ nội bộ.
 
-  ```js
-  pagination: {
-    limit: number;
-    offset: number;
-  }
-  ```
+### Phân trang - Paging:
 
-  Ví dụ ta cần lấy 10 records thì input như sau:
+Thay vì lấy toàn bộ records, chúng ta sẽ lấy với số lượng nhất định => Điều này cũng giúp giảm tải cho server.
 
-  ```js
-  pagination: {
-    limit: 10;
-    offset: 1;
-  }
-  ```
+Để lấy các records theo trang, chúng ta truyền tham số như : `offset` và `limit` để lấy ra những dữ liệu phù hợp.
+Cấu trúc kiểu dữ liệu của `input` phân trang như sau:
+
+```js
+pagination: {
+  limit: number;
+  offset: number;
+}
+```
+
+Ví dụ ta cần lấy 10 records thì input như sau:
+
+```js
+pagination: {
+  limit: 10;
+  offset: 1;
+}
+```
 
 Đối với tham số `offset` app sẽ sử dụng theo công thức tính như sau:
 

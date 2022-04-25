@@ -1,4 +1,4 @@
-# STUDY SPACE APP
+# PROJECT STRUCTURE
 
 ## Điều kiện tiên quyết
 

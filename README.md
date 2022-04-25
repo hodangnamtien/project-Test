@@ -72,10 +72,16 @@ cd studyspace-app
 sau đó
 
 ```js
- yarn android // mở emulator
+yarn install // Cài đặt các thư viện phụ thuộc cho dự án.
+```
+
+sau đó
+
+```js
+ yarn android //  Mở emulator.
  > Support: Platform macOS + window
 
- yarn ios // mở simulator
+ yarn ios //  Mở simulator.
  > Support: Platform macOS(only)
 
 ```

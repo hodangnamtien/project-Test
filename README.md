@@ -261,11 +261,13 @@ const CustomButton = () => {
 ### Api connection handler
 
 App sử dụng `Axios` để gọi các api của nền tảng Study Space.
-Ngoài ra có sử dụng `fetch` để gọi các api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS.
+Ngoài ra có sử dụng method `fetch` để gọi các api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS.
 
 Cấu trúc:
 
-- `api`: Nơi chứa các api.
-  - `CallApi`:
+- `api`
+  - `CallApi`: Chứa các api của app.
+    Quy tắc đặt tên api:
   - `Service`:
-    - `endPoint.ts`: Chứa các biến đường dẫn config môi trường, gồm: DEV , STAGING, PROD.
+    - `endPoint.ts`: Chứa các biến URL config môi trường, bao gồm: DEV , STAGING, PROD.
+    - `Services.ts`: Config base call api chung.

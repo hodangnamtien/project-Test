@@ -80,6 +80,12 @@ sau đó
 
 ```
 
+> Lưu ý quan trọng: Đối với các dự án React Native chạy trên phiên bản 0.63 hoặc phiên bản mới nhất. Hãy đảm bảo rằng phiên bản Cocoapods của bạn là phiên bản 1.10.1 để tránh bất kỳ lỗi nào khi chạy ứng dụng iOS. Bạn có thể cập nhật bằng lệnh này:
+
+```js
+sudo gem install cocoapods
+```
+
 ## Cấu trúc thư mục
 
 - `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.

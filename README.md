@@ -280,13 +280,13 @@ Cấu trúc:
     | Xóa    | Delete |
     | Sửa    | Edit   |
 
-  Cú pháp: `Get/Create/Delete/Edit + danh từ số ít/ Danh từ số nhiều + Service`.
+  Cú pháp: `Get/Create/Delete/Edit + Danh từ số ít/Danh từ số nhiều + Service`.
 
   Ví dụ: GetEmployeeService, GetEmployeesService
 
   Để danh từ số ít cho trường hợp lấy thông tin bộ lọc.
 
-  Cú pháp: `Get + danh từ số ít + Filters + Service`
+  Cú pháp: `Get + Danh từ số ít + Filters + Service`
 
   Ví dụ: GetEmployeeFilterService, GetEmployeeCategoryFiltersService.
 

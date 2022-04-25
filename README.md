@@ -268,10 +268,31 @@ Cấu trúc:
 - `api`
 
   - `CallApi`: Chứa các api của app.
-    Quy tắc đặt tên api:
-  - `Service`:
-    - `endPoint.ts`: Chứa các biến URL config môi trường, bao gồm: DEV , STAGING, PROD.
-    - `Services.ts`: Config base call api chung.
+
+        > Quy tắc đặt tên api:
+
+        Để danh từ số ít cho các tác vụ.
+
+        xem tạo, sửa, xoá, xác nhận và thêm các động từ Get, Create, Update, Delete phía đầu.
+        | Tác vụ | Đặt tên                                                                 |
+
+    | ------------ | ------------ |
+    | Xem | Get |
+    | Tạo | Create |
+
+  Cú pháp: `create/update/delete/get/confirm + danh từ số ít`.
+
+Ví dụ: createEmployee, getEmployee, deleteEmployee, createEmployeeCategory
+
+- Để danh từ số ít cho trường hợp lấy thông tin bộ lọc.
+
+  Cú pháp: `get + danh từ số ít + filters`
+
+Ví dụ: getEmployeeFilter, getEmployeeCategoryFilters.
+
+- `Service`:
+  - `endPoint.ts`: Chứa các biến URL `Application Configuration Endpoint` môi trường, bao gồm: DEV , STAGING, PROD.
+  - `Services.ts`: Config base call api chung.
 
 Quy ước đặt tên api sử dụng trong app:
 

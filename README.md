@@ -4,6 +4,9 @@
 
 ### Features
 
+- Hỗ trợ Dark mode
+- Hỗ trợ 2 ngôn ngữ: Tiếng Việt/Tiếng Anh
+
 ## Điều kiện tiên quyết
 
 - [React Native CLI v0.66.4 ](https://reactnative.dev/)

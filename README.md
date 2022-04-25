@@ -180,7 +180,7 @@ và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json`, v
 
 ```js
 {
-  "name": "@component"
+  "name": "@components"
 }
 
 
@@ -196,7 +196,7 @@ export * from "./MainContainer/MainContainer";
 và cách sử dụng
 
 ```js
-import {Button} from '@component'
+import {Button} from '@components'
 
 thay cho
 

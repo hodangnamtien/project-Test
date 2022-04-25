@@ -296,10 +296,10 @@ Cấu trúc:
   }
   ```
 
-Đối với tham số `offset` app sẽ sử dụng theo công thức sau:
+Đối với tham số `offset` app sẽ sử dụng theo công thức tính như sau:
 
 ```js
 offset: (page - 1) * limit;
 ```
 
-Trong đó để gọi 10 item đầu tiên của danh sách thì giá trị tham số page truyền vào sẽ bằng 1.
+> Trong đó để gọi 10 records đầu tiên của danh sách thì giá trị tham số page truyền vào sẽ bằng 1. Sau đó, nếu tiếp tục lấy thêm 10 records thì khi đó tham số page truyền vào sẽ bằng 2.

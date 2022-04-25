@@ -260,7 +260,7 @@ const CustomButton = () => {
 
 ### Api connection handler
 
-App sử dụng `Axios` để gọi các api của nền tảng Study Space.
+App sử dụng `Axios` để gọi các api của nền tảng Study Space. Ngôn ngữ truy vấn sử dụng `GraphQl`(https://graphql.org/)
 Ngoài ra có sử dụng method `fetch` để gọi các api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS.
 
 Cấu trúc:

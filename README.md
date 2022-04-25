@@ -384,13 +384,13 @@ export const Images = {
 
 ### Tùy chỉnh ngôn ngữ
 
-Tùy chỉnh text ngôn ngữ tại src/utils/languages/languages.
+Tùy chỉnh text ngôn ngữ tại /src/utils/languages/languages.
 
 Ví dụ về file en.json:
 
 ```js
 {
-  // Đối với những text public
+  //  Đối với những text public
   "signIn": "Sign in",
 
   //  Đối với những text private cho từng màn hình ta dùng như sau:

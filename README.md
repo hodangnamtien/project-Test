@@ -107,7 +107,7 @@
   - `redux`:
   - `shared`: Chứa những css dùng chung.
   - `types`: Chứa type `navigation` của màn hình.
-  - `utils`: Chứa file đa ngôn ngữ.
+  - `utils`: Lưu trữ file ngôn ngữ, các chức năng định dạng như (format ngày tháng,...).
   - `App.tsx`: Thành phần chính của app.
   - `index.js`: Điểm đầu vào của app.
 
@@ -257,3 +257,8 @@ const CustomButton = () => {
   ```js
   `${colorOption.red}20`; // Màu đỏ 20%
   ```
+
+  ### Api connection handler
+
+  App sử dụng `Axios` để gọi các api của nền tảng Study Space.
+  Ngoài ra có sử dụng `fetch` để gọi api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS

@@ -386,7 +386,7 @@ export const Images = {
 
 [`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
 
-Tùy chỉnh text ngôn ngữ tại /src/utils/languages/languages.
+Tùy chỉnh text ngôn ngữ tại `/src/utils/languages/languages`.
 
 Ví dụ về file en.json:
 

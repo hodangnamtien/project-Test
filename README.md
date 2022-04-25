@@ -373,6 +373,7 @@ export const Images = {
   logo: require("../assets/images/logo/logo.png"), // Đối với images public
 
   // Đối với các images hoặc icon private ta dùng cấu trúc sau:
+  > Trong đó: key object chính là tên SCREEN sử dụng hình ảnh hoặc icon đó.
   profile: {
     order_drink: require("../assets/images/order_drink/order_drink.png"),
     ic_personal: require("../assets/icons/ic_personal/ic_personal.png"),

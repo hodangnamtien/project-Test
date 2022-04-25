@@ -43,7 +43,7 @@
 - [react-native-slider](https://github.com/callstack/react-native-slider)
 - [react-native-responsive-fontsize](https://www.npmjs.com/package/react-native-responsive-fontsize)
 - [react-native-responsive-screen](https://github.com/marudy/react-native-responsive-screen)
-- [react-i18next](https://react.i18next.com/)
+- [react-i18next](https://github.com/AlexanderZaytsev/react-native-i18n)
 - [moment](https://momentjs.com/docs/)
 - [lodash](https://github.com/lodash/lodash)
 - [@react-navigation/bottom-tab](https://reactnavigation.org/docs/bottom-tab-navigator/)
@@ -384,7 +384,7 @@ export const Images = {
 
 ### Tùy chỉnh ngôn ngữ
 
-[`document`](https://react.i18next.com/)
+[`document`](https://github.com/AlexanderZaytsev/react-native-i18n)
 
 Tùy chỉnh text ngôn ngữ tại /src/utils/languages/languages.
 

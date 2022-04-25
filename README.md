@@ -346,3 +346,14 @@ offset: (page - 1) * limit;
 ```
 
 > Trong đó để gọi 10 records đầu tiên của danh sách thì giá trị tham số page truyền vào sẽ bằng 1. Sau đó, nếu tiếp tục lấy thêm 10 records thì khi đó tham số page truyền vào sẽ bằng `page hiện tại + 1`, kết quả page =2.
+
+### Tùy chỉnh font chữ
+
+App sử dụng font [`Quicksand`](https://fonts.google.com/specimen/Quicksand).
+Cấu trúc folder fonts [`xem thêm`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
+
+| Font weigth | Tên     |
+| ----------- | ------- |
+| 400         | Regular |
+| 500         | Medium  |
+| 700         | Bold    |

@@ -274,7 +274,9 @@ Cấu trúc:
         Để danh từ số ít cho các tác vụ.
 
         xem tạo, sửa, xoá, xác nhận và thêm các động từ Get, Create, Update, Delete phía đầu.
-        | Tác vụ | Đặt tên                                                                 |
+
+
+        | Tác vụ | Đặt tên |
 
     | ------------ | ------------ |
     | Xem | Get |

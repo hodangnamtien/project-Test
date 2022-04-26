@@ -521,11 +521,15 @@ export const SPACING_VERTICAL = {
 };
 ```
 
+<kbd>
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingVertical.png">
+</kbd>
+
 - SpacingHorizontal:
   > Là khoảng cách theo chiều ngang giữa background và content.
 
 <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingVertical.png">
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingHorizontal.png">
 </kbd>
 
 ### State

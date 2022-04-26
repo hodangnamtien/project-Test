@@ -524,6 +524,9 @@ Các biến global variables được quy ước như sau:
   </kbd>
 
 - lineSpacing: Là khoảng cách giữa các đối tượng text liền kề.
+  <kbd>
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/lineSpacing.png">
+  </kbd>
 
 ### State
 

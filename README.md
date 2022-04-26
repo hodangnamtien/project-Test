@@ -156,7 +156,7 @@ sudo gem install cocoapods
   - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
   - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
   - `navigation`: Folder to store the navigators.
-  - `localization`: Folder to store the languages files. (Chưa update)
+  - `localization`: Folder to store the languages files.
   - `redux`:
   - `shared`: Chứa những css dùng chung.
   - `types`: Chứa type `navigation` của màn hình.

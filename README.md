@@ -510,7 +510,7 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 ### Spacing
 
 <kbd>
-  <img height=50 src="https://github.com/hodangnamtien/project-Test/blob/main/image/current.png">
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/current.png">
 </kbd>
 
 ### State

@@ -22,25 +22,25 @@
 - [react-navigation](https://reactnavigation.org/) navigation library, it is used to navigate to another page or screen.
 - [redux](https://redux.js.org/) for state management.
 - [redux-toolkit](https://redux-toolkit.js.org/)
-- [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/) lưu dữ liệu vào local.
+- [async-storage](https://react-native-async-storage.github.io/async-storage/docs/install/)
 - [redux-persist](https://github.com/rt2zz/redux-persist) as persistance layer.
 - [redux-saga](https://redux-saga.js.org/)
 - [redux-unfold-saga](https://github.com/manhhailua/redux-unfold-saga)
 - [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
-- [jest](https://facebook.github.io/jest/) kiểm thử.
-- [react-vector-icons](https://github.com/oblador/react-native-vector-icons) lấy icon cho app.
-- [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) code hiệu ứng cho app.
-- [react-native-calendars](https://github.com/wix/react-native-calendars) cấu hình component lịch cho app.
-- [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image) xử lý khi dữ liệu trả về có nhiều hình ảnh.
-- [react-native-fbsdk-next](https://github.com/thebergamo/react-native-fbsdk-next) tích hợp tính năng đăng nhập Facebook.
-- [@react-native-google-signin/google-signin](https://github.com/react-native-google-signin/google-signin) tích hợp tính năng đăng nhập Google.
-- [@react-native-community/push-notification-ios]() bắn thông báo cho ios.
+- [jest](https://facebook.github.io/jest/) for testing.
+- [react-vector-icons](https://github.com/oblador/react-native-vector-icons)
+- [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
+- [react-native-calendars](https://github.com/wix/react-native-calendars)
+- [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image)
+- [react-native-fbsdk-next](https://github.com/thebergamo/react-native-fbsdk-next)
+- [@react-native-google-signin/google-signin](https://github.com/react-native-google-signin/google-signin)
+- [@react-native-community/push-notification-ios]()
 - [react-native-push-notification](https://github.com/zo0r/react-native-push-notification)
-- [react-native-device-info](https://github.com/react-native-device-info/react-native-device-info) lấy thông tin của thiết bị.
-- [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler) các thư viện khác yêu cầu.
-- [react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) crop hình ảnh.
-- [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient) tạo nền linear-gradient.
-- [react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) xử lý bottomSheet
+- [react-native-device-info](https://github.com/react-native-device-info/react-native-device-info)
+- [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
+- [react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker)
+- [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
+- [react-native-modalize](https://github.com/jeremybarbet/react-native-modalize)
 - [@gorhom/portal](https://github.com/gorhom/react-native-portal)
 - [@gorhom/bottom-sheet](https://github.com/gorhom/react-native-bottom-sheet)
 - [react-native-splash-screen](https://github.com/crazycodeboy/react-native-splash-screen)
@@ -96,7 +96,7 @@ Cài đặt phụ thuộc
 yarn install
 ```
 
-sau đó
+then
 
 ```js
  yarn android //  Mở emulator.

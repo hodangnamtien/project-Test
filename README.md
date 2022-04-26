@@ -1,6 +1,6 @@
 # Project Structure
 
-> Dự án sử dụng framework `React Native` và sử dụng ngôn ngữ `TypeScript` để xây dựng app.
+> Dự án sử dụng framework `React Native`(https://reactnative.dev/) và sử dụng ngôn ngữ `TypeScript` để xây dựng app.
 
 ### Features
 

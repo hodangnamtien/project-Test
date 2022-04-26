@@ -1,13 +1,13 @@
 # Project Structure
 
-> Dự án sử dụng framework [React Native](https://reactnative.dev/) và sử dụng ngôn ngữ `TypeScript` để xây dựng app.
+> Dự án sử dụng framework [React Native](https://reactnative.dev/) và sử dụng ngôn ngữ [TypeScript](https://www.typescriptlang.org/) để xây dựng app.
 
 ### Features
 
 - Hỗ trợ Dark mode
 - Hỗ trợ 2 ngôn ngữ: Tiếng Việt / Tiếng Anh
 
-## Điều kiện tiên quyết
+## Prerequisites
 
 - [React Native CLI v0.66.4 ](https://reactnative.dev/)
 - [Node.js > v16](https://nodejs.org) and [yarn](https://yarnpkg.com/)
@@ -16,7 +16,7 @@
 - [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Android Studio and Android SDK](https://developer.android.com/studio)
 
-## Phụ thuộc
+## Base dependencies
 
 - [axios](https://github.com/axios/axios) for networking.
 - [react-navigation](https://reactnavigation.org/) navigation library, it is used to navigate to another page or screen.

@@ -533,7 +533,7 @@ Các biến global variables được quy ước như sau:
 
 - spacingBetween: Khoảng cách giữa các đối tượng đủ.
 
- <kbd>
+  <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingBetween.png">
   </kbd>
 

@@ -515,7 +515,7 @@ import { OPACITY_DISABLE } from "@constants";
 
 App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại trải nghiệm nhất quán, và ổn định nhất cho người dùng ở cả 2 nền tảng hệ điều hành này.
 
-\_ link tải font:
+👉 link tải font:
 [https://fonts.google.com/specimen/Quicksand](https://fonts.google.com/specimen/Quicksand)
 
 - Tùy chỉnh font chữ:

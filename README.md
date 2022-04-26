@@ -511,22 +511,13 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
 Các biến global variables được quy ước như sau:
 
-- SpacingVertical:
-  > Là khoảng cách theo chiều dọc giữa background và content.
-
-```js
-export const SPACING_VERTICAL = {
-  SMALL: 8,
-  MEDIUM: 12,
-};
-```
+- SPACING_VERTICAL: Là khoảng cách theo chiều dọc giữa background và content.
 
 <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingVertical.png">
 </kbd>
 
-- SpacingHorizontal:
-  > Là khoảng cách theo chiều ngang giữa background và content.
+- SPACING_HORIZONTAL: Là khoảng cách theo chiều ngang giữa background và content.
 
 <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingHorizontal.png">

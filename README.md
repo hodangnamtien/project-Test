@@ -482,29 +482,6 @@ const CustomButton = () => {
 `${colorOption.red}20`; // Màu đỏ 20%
 ```
 
-Đối với các trạng thái `Disabled`: - Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện.
-
-- Để tạo trạng thái disabled ta có 2 cách:
-
-1. Thay đổi màu sắc: Áp dụng đối với những thành phần nhỏ, được define kỹ và sử dụng lại nhiều (button, toggle, checkbox, radio, input).
-   Cách sử dụng:
-
-```js
-const CustomButton = () => {
-  const { colors } = useTheme();
-  return <View style={{ backgroundColor: colors.disable }}></View>;
-};
-```
-
-2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel):
-
-- Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...).
-  Cách sử dụng:
-
-```js
-import { OPACITY_DISABLE } from "@constants";
-```
-
 - Divide
 
 ## Foundation
@@ -533,5 +510,28 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 ### Spacing
 
 ### State
+
+Đối với các trạng thái `Disabled`: - Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.
+
+- Để tạo trạng thái disabled ta có 2 cách:
+
+1. Thay đổi màu sắc: Áp dụng đối với những thành phần nhỏ, được define kỹ và sử dụng lại nhiều (button, toggle, checkbox, radio, input).
+   Cách sử dụng:
+
+```js
+const CustomButton = () => {
+  const { colors } = useTheme();
+  return <View style={{ backgroundColor: colors.disable }}></View>;
+};
+```
+
+2. Giảm opacity: Áp dụng đối với những component phức tạp hơn, có sự kết hợp của nhiều thành phần nhỏ (list, card, carousel):
+
+- Giảm opacity toàn bộ component =40% trạng thái cơ bản (bao gồm background và các thành phần con như image, icon, text, badge,...).
+  Cách sử dụng:
+
+```js
+import { OPACITY_DISABLE } from "@constants";
+```
 
 ## License

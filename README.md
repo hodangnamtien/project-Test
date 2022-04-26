@@ -86,13 +86,18 @@ cd ios && pod install
 
 2. Open app Study Space
 
+If you run android emulator:
+
 ```js
- yarn android //  Android emulator.
- hoặc npx react-native run-android
+ yarn android
  > Support: Platform macOS + window
 
- yarn ios //  Ios simulator.
- hoặc npx react-native run-ios
+```
+
+If you run ios simulator:
+
+```js
+ yarn ios
  > Support: Platform macOS(only)
 
 ```

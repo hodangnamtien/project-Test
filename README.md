@@ -501,8 +501,6 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
   | 500         | Medium  |
   | 700         | Bold    |
 
-### Layout
-
 ### Spacing
 
 Các biến global variables được quy ước như sau:

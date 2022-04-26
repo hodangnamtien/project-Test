@@ -167,11 +167,10 @@ sudo gem install cocoapods
 
 To customize the splash screen (logo and background color), use the CLI provided in the [official docs](https://github.com/crazycodeboy/react-native-splash-screen).
 
-## Thiết lập môi trường
+## Setup environments
 
-### Thiết lập các đường đẫn động
-
-Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
+1. Using scripts from console
+   Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
 
 ```js
   "paths": {

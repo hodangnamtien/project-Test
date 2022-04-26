@@ -153,7 +153,7 @@ sudo gem install cocoapods
       - `styles.ts`: chứa css.
       - `hook.ts`: chưa logic, state. -->
   - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
-  - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
+  - `hook`: If you have custom hooks defined in your project you can put it over here that can be shared across your entire project.
   - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
   - `navigation`: Folder to store the navigators.
   - `localization`: Folder to store the languages files.

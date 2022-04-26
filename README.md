@@ -520,10 +520,14 @@ import { OPACITY_DISABLE } from "@constants";
 
 - Divide
 
-## App layout
+## Foundation
 
 ### Colors
 
-### ds
+### Typography
 
-### License
+### Layout
+
+### State
+
+## License

@@ -359,19 +359,6 @@ offset: (page - 1) * limit;
 
 > Trong đó để gọi 10 records đầu tiên của danh sách thì giá trị tham số page truyền vào sẽ bằng 1. Sau đó, nếu tiếp tục lấy thêm 10 records thì khi đó tham số page truyền vào sẽ bằng `page hiện tại + 1`, kết quả page =2.
 
-### Tùy chỉnh font chữ
-
-Phông chữ cần được đặt tại `/src/assets/fonts`.
-
-App sử dụng font [`Quicksand`](https://fonts.google.com/specimen/Quicksand).
-Cấu trúc folder fonts [`Document`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
-
-| Font weight | Tên     |
-| ----------- | ------- |
-| 400         | Regular |
-| 500         | Medium  |
-| 700         | Bold    |
-
 ### Generate images/icons
 
 Tạo ảnh mới trong thư mục `/src/assets/images`.
@@ -530,6 +517,19 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
 \_ link tải font:
 [https://fonts.google.com/specimen/Quicksand](https://fonts.google.com/specimen/Quicksand)
+
+- Tùy chỉnh font chữ:
+
+Phông chữ cần được đặt tại `/src/assets/fonts`.
+
+App sử dụng font [`Quicksand`](https://fonts.google.com/specimen/Quicksand).
+Cấu trúc folder fonts [`Document`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
+
+| Font weight | Tên     |
+| ----------- | ------- |
+| 400         | Regular |
+| 500         | Medium  |
+| 700         | Bold    |
 
 ### Layout
 

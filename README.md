@@ -535,8 +535,6 @@ Các biến global variables được quy ước như sau:
 
 - spacingSeparator: Khoảng cách giữa 2 đối tượng tương tự.
 
-> Component:
-
   <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingSeparator.png">
   </kbd>

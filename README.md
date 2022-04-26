@@ -88,17 +88,20 @@ cd ios && pod install
 
 If you run android emulator:
 
+> Support: Platform macOS + window
+
 ```js
  yarn android
- > Support: Platform macOS + window
+
 
 ```
 
 If you run ios simulator:
 
+> Support: Platform macOS(only)
+
 ```js
  yarn ios
- > Support: Platform macOS(only)
 
 ```
 

@@ -136,26 +136,26 @@ sudo gem install cocoapods
 
     > Ví dụ như sau "CREATE_STUDENT" = "CREATE_STUDENT"
 
-  - `constants`: Chứa những biến global state, các funtion phổ biển, các hằng số, ...
+  - `constants`: Folder to store any kind of constant, global variables that you have.
 
-    > FontIcons.ts chứa tất cả vector-icon được dùng cho toàn app.
+    <!-- > FontIcons.ts chứa tất cả vector-icon được dùng cho toàn app.
 
     > Images.ts chứa tất cả đường dẫn ảnh dùng cho app.
 
     > Reponsive.ts chứa thông tin về thông số kích thước màn hình, fontScale chữ.
 
-    > Global.ts chứa thông tin về các biến global variables.
+    > Global.ts chứa thông tin về các biến global variables. -->
 
-  - `containers`: Chứa các màn hình của app.
-    - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
+  - `containers`: Folder that contains all your application screens.
+    <!-- - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
       - `component`: các component được dùng riêng cho thư mục này.
       - `Screen.tsx` chứa UI.
       - `styles.ts`: chứa css.
-      - `hook.ts`: chưa logic, state.
+      - `hook.ts`: chưa logic, state. -->
   - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
   - `hook`: Chứa các function xử lý logic được tái sử dụng nhiều.
   - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
-  - `navigation`: Quản lý điều hướng màn hình.
+  - `navigation`: Folder to store the navigators.
   - `redux`:
   - `shared`: Chứa những css dùng chung.
   - `types`: Chứa type `navigation` của màn hình.

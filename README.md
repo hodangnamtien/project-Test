@@ -518,7 +518,7 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 👉 Link download font:
 [https://fonts.google.com/specimen/Quicksand](https://fonts.google.com/specimen/Quicksand)
 
-- Tùy chỉnh font chữ:[document](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/)
+- Tùy chỉnh font chữ: [Document](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/)
 
   Phông chữ cần được đặt tại `/src/assets/fonts`.
 

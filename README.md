@@ -522,7 +522,7 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
   Phông chữ cần được đặt tại `/src/assets/fonts`.
 
-  Cấu trúc folder fonts [`Document`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
+  Cấu trúc folder fonts [`docs`](https://ospfolio.com/two-way-to-change-default-font-family-in-react-native/).
 
   | Font weight | Tên     |
   | ----------- | ------- |

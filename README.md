@@ -131,10 +131,10 @@ sudo gem install cocoapods
 
   - `components`: Folder to store any common component that you use through your app (such as a generic button).
   - `config`: Nơi khai báo tên các "Màn hình" của app.
+  <!--
+      > Toàn bộ các tên Màn hình trong app sẽ đặt trong file Screens.ts với Cấu trúc “TÊN_MÀN_HÌNH"=”TÊN_MÀN HÌNH“
 
-    > Toàn bộ các tên Màn hình trong app sẽ đặt trong file Screens.ts với Cấu trúc “TÊN_MÀN_HÌNH"=”TÊN_MÀN HÌNH“
-
-    > Ví dụ như sau "CREATE_STUDENT" = "CREATE_STUDENT"
+      > Ví dụ như sau "CREATE_STUDENT" = "CREATE_STUDENT" -->
 
   - `constants`: Folder to store any kind of constant, global variables that you have.
 

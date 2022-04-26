@@ -557,6 +557,11 @@ Các biến global variables được quy ước như sau:
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/divider.png">
   </kbd>
 
+- SPACING_FILTER: Khoảng cách của tất cả màn hình Filters.
+  <kbd>
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/filters.png">
+  </kbd>
+
 ### State
 
 Đối với các trạng thái `Disabled`: Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.

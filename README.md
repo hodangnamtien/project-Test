@@ -1,6 +1,6 @@
 # Project Structure
 
-> Project used framework [React Native](https://reactnative.dev/) and used language [TypeScript](https://www.typescriptlang.org/) để xây dựng app.
+> Project used framework [React Native](https://reactnative.dev/) and used language [TypeScript](https://www.typescriptlang.org/) to build apps.
 
 ## Features
 

@@ -163,9 +163,9 @@ sudo gem install cocoapods
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
-## Tùy chỉnh màn hình Splash
+## Splash screen customization
 
-Để tùy chỉnh màn hình splash (logo and background color), hãy sử dụng [document](https://github.com/crazycodeboy/react-native-splash-screen) sau
+To customize the splash screen (logo and background color), use the CLI provided in the [official docs](https://github.com/crazycodeboy/react-native-splash-screen).
 
 ## Thiết lập môi trường
 

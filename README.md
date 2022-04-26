@@ -514,31 +514,31 @@ Các biến global variables được quy ước như sau:
 - spacingVertical: Là khoảng cách theo chiều dọc giữa background và content.
 
   <kbd>
-    <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingVertical.png">
+    <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingVertical.png">
   </kbd>
 
 - spacingHorizontal: Là khoảng cách theo chiều ngang giữa background và content.
 
   <kbd>
-    <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingHorizontal.png">
+    <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingHorizontal.png">
   </kbd>
 
 - lineSpacing: Là khoảng cách giữa các đối tượng text liền kề.
 
   <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/lineSpacing.png">
+  <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/lineSpacing.png">
   </kbd>
 
 - spacingChild: Khoảng cách xung quanh giữa các đối tượng của 1 đối tượng đủ.
 
   <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingChild.png">
+  <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingChild.png">
   </kbd>
 
 - spacingBetween: Khoảng cách giữa các đối tượng đủ.
 
   <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingBetween.png">
+  <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingBetween.png">
   </kbd>
 
 - spacingSeparator: Khoảng cách giữa 2 đối tượng tương tự.
@@ -546,7 +546,7 @@ Các biến global variables được quy ước như sau:
   > Component `Separator` sẽ được dùng cho kiểu layout này.
 
   <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingSeparator.png">
+  <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingSeparator.png">
   </kbd>
 
 - Ngoài ra:
@@ -554,12 +554,12 @@ Các biến global variables được quy ước như sau:
   > Sử dụng component `Divider` cho các đường line xám phân cách giữa các đối tượng không phải card.
 
   <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/divider.png">
+  <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/divider.png">
   </kbd>
 
 - SPACING_FILTER: Khoảng cách của tất cả màn hình Filters.
   <kbd>
-  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/filters.png">
+  <img width=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/filters.png">
   </kbd>
 
 ### State

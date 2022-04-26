@@ -523,13 +523,13 @@ Các biến global variables được quy ước như sau:
     <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingHorizontal.png">
   </kbd>
 
-- lineSpacing: Là khoảng cách giữa các đối tượng text hoặc view text liền kề.
+- lineSpacing: Là khoảng cách giữa các đối tượng text liền kề.
 
   <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/lineSpacing.png">
   </kbd>
 
-- spacingChild: Khoảng cách bên trong 1 thành phần.
+- spacingChild: Khoảng cách xung quanh giữa các đối tượng của 1 đối tượng đủ.
 
   <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingChild.png">

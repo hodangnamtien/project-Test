@@ -549,6 +549,14 @@ Các biến global variables được quy ước như sau:
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingSeparator.png">
   </kbd>
 
+- Ngoài ra:
+
+  > Sử dụng component `Divider` cho các đường line xám phân cách giữa các đối tượng không phải card.
+
+  <kbd>
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/divider.png">
+  </kbd>
+
 ### State
 
 Đối với các trạng thái `Disabled`: Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.

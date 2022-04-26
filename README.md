@@ -130,7 +130,6 @@ sudo gem install cocoapods
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error -->
 
   - `components`: Folder to store any common component that you use through your app (such as a generic button).
-    - atoms:
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   <!--
       > Toàn bộ các tên Màn hình trong app sẽ đặt trong file Screens.ts với Cấu trúc “TÊN_MÀN_HÌNH"=”TÊN_MÀN HÌNH“
@@ -166,6 +165,11 @@ sudo gem install cocoapods
   - `index.js`: Entry point of your application as per React-Native standards.
 
 ### Component
+
+1. atoms: là thành phần nhỏ nhất, những block cơ bản nhất và không thể nhỏ hơn nữa (ví dụ: button, input field, checkbox,...).
+2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input field và một button có thể kết hợp thành một khung tìm kiếm).
+   Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.
+3. organisms: nhóm các Molecules giống nhau hoặc khác nhau để tạo thành một thành phần hoàn chỉnh của một giao diện. (Ví dụ: Header trang có thể kết hợp từ một logo, menu và khung tìm kiếm)
 
 ## Splash screen customization
 

@@ -130,6 +130,7 @@ sudo gem install cocoapods
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error -->
 
   - `components`: Folder to store any common component that you use through your app (such as a generic button).
+    - atoms:
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   <!--
       > Toàn bộ các tên Màn hình trong app sẽ đặt trong file Screens.ts với Cấu trúc “TÊN_MÀN_HÌNH"=”TÊN_MÀN HÌNH“
@@ -163,6 +164,8 @@ sudo gem install cocoapods
   - `utils`: You can put utils files over here.
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
+
+### Component
 
 ## Splash screen customization
 

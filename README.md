@@ -509,7 +509,9 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
 ### Spacing
 
-[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+<kbd>
+  <img height=50 src="https://github.com/wix-private/wix-react-native-calendar/blob/master/demo/assets/marking5.png?raw=true">
+</kbd>
 
 ### State
 

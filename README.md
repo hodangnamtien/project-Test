@@ -2,7 +2,7 @@
 
 > Dự án sử dụng framework [React Native](https://reactnative.dev/) và sử dụng ngôn ngữ [TypeScript](https://www.typescriptlang.org/) để xây dựng app.
 
-### Features
+## Features
 
 - Hỗ trợ Dark mode
 - Hỗ trợ 2 ngôn ngữ: Tiếng Việt / Tiếng Anh
@@ -87,11 +87,11 @@ cd ios && pod install
 2. Open app Study Space
 
 ```js
- yarn android //  Mở emulator.
+ yarn android //  Android emulator.
  hoặc npx react-native run-android
  > Support: Platform macOS + window
 
- yarn ios //  Mở simulator.
+ yarn ios //  Ios simulator.
  hoặc npx react-native run-ios
  > Support: Platform macOS(only)
 

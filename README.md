@@ -1,11 +1,11 @@
 # Project Structure
 
-> Dự án sử dụng framework [React Native](https://reactnative.dev/) và sử dụng ngôn ngữ [TypeScript](https://www.typescriptlang.org/) để xây dựng app.
+> Project used framework [React Native](https://reactnative.dev/) and used language [TypeScript](https://www.typescriptlang.org/) để xây dựng app.
 
 ## Features
 
-- Hỗ trợ Dark mode
-- Hỗ trợ 2 ngôn ngữ: Tiếng Việt / Tiếng Anh
+- Support darkmode
+- Support language: VietNamese / English
 
 ## Prerequisites
 

@@ -533,6 +533,10 @@ Các biến global variables được quy ước như sau:
 
 - spacingBetween: Khoảng cách giữa các đối tượng đủ.
 
+ <kbd>
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingBetween.png">
+  </kbd>
+
 - spacingSeparator: Khoảng cách giữa 2 đối tượng tương tự.
 
   > Component `Separator` sẽ được dùng cho kiểu layout này.

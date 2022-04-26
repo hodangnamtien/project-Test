@@ -70,30 +70,17 @@
 
 ## Usage
 
-Đầu tiên clone the repo:
+1. Clone and Install
 
 ```js
+# Clone the repo
 git clone https://gitlab.com/studyspace_obee/studyspace-app
-```
 
-Install Pods
+# Navigate to clonned folder and Install dependencies
+cd studyspace-app && yarn install
 
-```js
+# Install Pods
 cd ios && pod install
-
-hoặc npx pod-install
-```
-
-Điều hướng đến thư mục dự án
-
-```js
-cd studyspace-app
-```
-
-Cài đặt phụ thuộc
-
-```js
-yarn install
 ```
 
 then

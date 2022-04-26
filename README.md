@@ -511,7 +511,7 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
 ### State
 
-Đối với các trạng thái `Disabled`: - Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.
+Đối với các trạng thái `Disabled`: Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.
 
 - Để tạo trạng thái disabled ta có 2 cách:
 
@@ -533,5 +533,7 @@ const CustomButton = () => {
 ```js
 import { OPACITY_DISABLE } from "@constants";
 ```
+
+- Divider (line) phân chia giữa các component giữ 100% opacity.
 
 ## License

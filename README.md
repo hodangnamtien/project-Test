@@ -509,6 +509,8 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
 ### Spacing
 
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
+
 ### State
 
 Đối với các trạng thái `Disabled`: Trạng thái disabled sử dụng khi một thành phần hoặc phần tử không thể tương tác và phải cần được hiển thị cho người dùng biết giao diện. Trạng thái disabled được hiển thị bằng 40% opacity của trạng thái bình thường.

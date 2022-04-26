@@ -113,11 +113,12 @@ sudo gem install cocoapods
 
 ## Folder structure
 
-- `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.
+- `src`: This folder is the main container of all the code inside your application.
 
   - `api`: Nơi chứa các api.
-  - `assets`:
-    Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
+  - `assets`: Asset folder to store all images, icons, fonts.
+
+    <!-- Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
 
     - ic_home
       - ic_home.png
@@ -126,9 +127,9 @@ sudo gem install cocoapods
 
     > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
 
-    > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
+    > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error -->
 
-  - `components`: Chứa các thành phần được sử dụng phổ biến (ví dụ như button, input, selection,...),
+  - `components`: Folder to store any common component that you use through your app (such as a generic button).
   - `config`: Nơi khai báo tên các "Màn hình" của app.
 
     > Toàn bộ các tên Màn hình trong app sẽ đặt trong file Screens.ts với Cấu trúc “TÊN_MÀN_HÌNH"=”TÊN_MÀN HÌNH“
@@ -159,8 +160,8 @@ sudo gem install cocoapods
   - `shared`: Chứa những css dùng chung.
   - `types`: Chứa type `navigation` của màn hình.
   - `utils`: Lưu trữ file ngôn ngữ, các chức năng định dạng như (format ngày tháng,...).
-  - `App.tsx`: Thành phần chính của app.
-  - `index.js`: Điểm đầu vào của app.
+  - `App.tsx`: Main component that starts your whole app.
+  - `index.js`: Entry point of your application as per React-Native standards.
 
 ## Tùy chỉnh màn hình Splash
 

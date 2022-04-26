@@ -509,6 +509,17 @@ App sử dụng font `Quicksand` cho cả iOS lẫn Android để mang lại tr�
 
 ### Spacing
 
+Các biến global variables được quy ước như sau:
+
+- SpacingVertical
+
+```js
+export const SPACING_VERTICAL = {
+  SMALL: 8,
+  MEDIUM: 12,
+};
+```
+
 <kbd>
   <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingVertical.png">
 </kbd>

@@ -115,7 +115,7 @@ sudo gem install cocoapods
 
 - `src`: This folder is the main container of all the code inside your application.
 
-  - `api`: Nơi chứa các api.
+  - `api`: This folder contains logic related to external API communications.
   - `assets`: Asset folder to store all images, icons, fonts.
 
     <!-- Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
@@ -158,9 +158,9 @@ sudo gem install cocoapods
   - `navigation`: Folder to store the navigators.
   - `localization`: Folder to store the languages files.
   - `redux`:
-  - `shared`: Chứa những css dùng chung.
+  - `shared`: Folder to store global styles defined in your project.
   - `types`: Chứa type `navigation` của màn hình.
-  - `utils`: Lưu trữ file ngôn ngữ, các chức năng định dạng như (format ngày tháng,...).
+  - `utils`: You can put utils files over here.
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 

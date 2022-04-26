@@ -170,8 +170,7 @@ To customize the splash screen (logo and background color), use the CLI provided
 
 ## Setup environments
 
-1. Using scripts from console
-   Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
+Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
 
 ```js
   "paths": {
@@ -219,10 +218,10 @@ thay cho
 import {Button} from './src/component/Button'
 ```
 
-### Sử dụng mã script
+1. Using scripts from console
 
 Thêm lệnh thực thi nhanh nếu cần trong tệp package.json:
-Ví dụ:
+Eg:
 
 ```js
  "scripts": {

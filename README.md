@@ -531,6 +531,10 @@ Các biến global variables được quy ước như sau:
 
 - spacingChild: Khoảng cách bên trong 1 thành phần.
 
+  <kbd>
+  <img height=400 src="https://github.com/hodangnamtien/project-Test/blob/main/image/spacingChild.png">
+  </kbd>
+
 - spacingBetween: Khoảng cách giữa các đối tượng đủ.
 
   <kbd>

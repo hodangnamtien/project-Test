@@ -522,8 +522,8 @@ import { OPACITY_DISABLE } from "@constants";
 
 ## App layout
 
-1.  Colors
+### Colors
 
-2.  ds
+### ds
 
 ### License

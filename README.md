@@ -111,7 +111,7 @@ If you run ios simulator:
 sudo gem install cocoapods
 ```
 
-## Cấu trúc thư mục
+## Folder structure
 
 - `src`: Thư mục này là nơi chứa chính của tất cả mã bên trong app.
 

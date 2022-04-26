@@ -402,7 +402,9 @@ Ví dụ về file en.json:
 }
 ```
 
-### Tùy chỉnh darkmode và mã màu
+## Foundation
+
+### Colors
 
 Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`.
 
@@ -435,14 +437,14 @@ Quy ước mã màu chữ:
 | warning            |               |
 | success \| infor   |               |
 
-Trả về giá trị `light` hoặc `dark`.
+Cách lấy giá trị `mode` chế độ darkmode để xử lý UI như sau:
 
 ```js
 import { View, Text } from "react-native";
 import React from "react";
 import { useSelector } from "react-redux";
 
-export const Button: Reac.Fc = () => {
+export const Button: Reac.FC = () => {
   const mode = useSelector((root: IRootState) => root?.myTheme?.theme);
   return (
     <View>
@@ -452,7 +454,7 @@ export const Button: Reac.Fc = () => {
 };
 ```
 
-Handler mã màu chữ / icon / nền thay đổi theo `mode` theme:
+Cách lấy mã màu chữ/icon/nền thay đổi theo `mode` theme:
 
 ```js
 import { useTheme } from "@hooks";
@@ -466,7 +468,7 @@ const CustomButton = () => {
 };
 ```
 
-Handler mã màu chữ / icon / nền không thay đổi theo `mode` theme:
+Cách lấy mã màu chữ/icon/nền không thay đổi theo `mode` theme:
 
 ```js
 import { colorOption } from "@constans";
@@ -479,14 +481,8 @@ const CustomButton = () => {
 Đối với các trạng thái màu sắc opacity: sử dụng theo cấu trúc như sau:
 
 ```js
-`${colorOption.red}20`; // Màu đỏ 20%
+`${colorOption.red}20`;
 ```
-
-- Divide
-
-## Foundation
-
-### Colors
 
 ### Typography
 

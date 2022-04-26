@@ -81,9 +81,10 @@ cd studyspace-app && yarn install
 
 # Install Pods
 cd ios && pod install
+
 ```
 
-then
+2. Open app Study Space
 
 ```js
  yarn android //  Mở emulator.

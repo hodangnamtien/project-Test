@@ -186,16 +186,22 @@ sudo gem install cocoapods
 - Checkbox
 - Switch
 - Stepper
+- Divider
+- Separator
+- TextError
+- RequiredField
 
 ...
 
 2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input và một button có thể kết hợp thành một khung tìm kiếm).
    Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.
 
-- CheckboxItem
-- InputField (Được kết hợp giữa Input + RequiredField + TextError)
+- CheckboxItem (Cấu tạo: Checkbox + Text)
+- InputField (Cấu tạo: Input + RequiredField + TextError)
 
 3. organisms: nhóm các Molecules giống nhau hoặc khác nhau để tạo thành một thành phần hoàn chỉnh của một giao diện. (Ví dụ: Header trang có thể kết hợp từ một logo, menu và khung tìm kiếm)
+
+- MainContainer
 
 ## Splash screen customization
 

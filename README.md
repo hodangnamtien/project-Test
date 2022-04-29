@@ -197,7 +197,7 @@ Cấu trúc:
 
 `500`: Lỗi máy chủ nội bộ. -->
 
-### /navigation
+### /navigation và types
 
 [`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
 
@@ -205,14 +205,6 @@ Cấu trúc:
 VD: SupportNavigator,...
 
 - Props/ params của màn hình cần được khai báo rõ ràng [`Tài liệu`](https://reactnavigation.org/docs/typescript/).
-
-### /types
-
-```js
-const route = useRoute <BookCategoryListRouteProp> ()
-const navigaiton  = useNavigation <BookCategoryListNavigationProp>
-
-```
 
 ### /assets
 
@@ -286,6 +278,13 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
   - `Screen.tsx` chứa UI.
   - `styles.ts`: chứa css.
   - `hook.ts`: chứa logic, state.
+    Khi điều hướng màn hình cần được khai báo kiểu cho route và navigation.
+    ```js
+    const route = useRoute <BookCategoryListRouteProp> ()
+    const navigation = useNavigation <BookCategoryListNavigationProp>()
+    ```
+
+`````
 
 ### /localization
 
@@ -330,7 +329,7 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
       "@hooks": ["./src/hooks"],
       "@types": ["./src/types"]
     }
-````
+`````
 
 (Sử dụng package.json để tránh đường dẫn tương đối)
 và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json`, ví dụ như sau:

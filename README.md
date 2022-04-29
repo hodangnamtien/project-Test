@@ -427,9 +427,9 @@ Ví dụ về file en.json:
 
 ## Customization
 
-### Splash screen
+### Splash
 
-To customize the splash screen (logo and background color), use the CLI provided in the [official docs](https://github.com/crazycodeboy/react-native-splash-screen).
+Để tùy chỉnh màn hình (logo and background color), hãy sử dụng CLI được cung cấp trong [official docs](https://github.com/crazycodeboy/react-native-splash-screen).
 
 ### Color
 

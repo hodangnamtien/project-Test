@@ -180,16 +180,33 @@ sudo gem install cocoapods
 
 1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau, ...
 
-- Text
+- ActionSheet
+- ActivityIndicator
 - Button
-- Input
+- ButtonGradient
+- ButtonWrapper
 - Checkbox
-- Switch
-- Stepper
 - Divider
-- Separator
-- TextError
+- Dots
+- ErrorText
+- HeaderAuth
+- Icon
+- Input
+- InputSpinner
+- ListEmpty
+- MainImage
+- Modal
+- RadioButton
+- RadioCheckbox
+- Rating
 - RequiredField
+- Separator
+- StatusBar
+- Stepper
+- Switch
+- Text
+- TopTab
+- TouchableOpacity
 
 ...
 
@@ -197,7 +214,7 @@ sudo gem install cocoapods
    Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.
 
 - CheckboxItem (Cấu tạo: Checkbox + Text)
-- InputField (Cấu tạo: Input + RequiredField + TextError)
+- InputField (Cấu tạo: Input + RequiredField + ErrorText)
 
 3. organisms: nhóm các Molecules giống nhau hoặc khác nhau để tạo thành một thành phần hoàn chỉnh của một giao diện. (Ví dụ: Header trang có thể kết hợp từ một logo, menu và khung tìm kiếm)
 

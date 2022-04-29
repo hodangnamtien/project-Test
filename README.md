@@ -197,12 +197,22 @@ Cấu trúc:
 
 `500`: Lỗi máy chủ nội bộ. -->
 
-### /navigation [`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
+### /navigation
+
+[`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
 
 Đặt tên: Screen + Navigator
 VD: SupportNavigator,...
 
 - Props/ params của màn hình cần được khai báo rõ ràng [`Tài liệu`](https://reactnavigation.org/docs/typescript/).
+
+### /types
+
+```js
+const route = useRoute <BookCategoryListRouteProp> ()
+const navigaiton  = useNavigation <BookCategoryListNavigationProp>
+
+```
 
 ### /assets
 

@@ -403,7 +403,7 @@ Eg:
 - Code đúng chuẩn typescipts.
 - Validate:
   > Sử dụng `Formik` cho những xử lý form phức tạp.
-- Lưu redux state vào local storage hãy sử dụng `redux-persist`, thay cho` aysnc storage`.
+- Lưu redux state vào local storage hãy sử dụng `redux-persist`, thay cho `aysnc storage`.
 
 ### Phân trang - Paging:
 

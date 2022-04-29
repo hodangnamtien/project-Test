@@ -126,18 +126,9 @@ sudo gem install cocoapods
       > Ví dụ như sau "CREATE_STUDENT" = "CREATE_STUDENT" -->
 
   - `constants`: Folder to store any kind of constant, global variables that you have.
-
-    <!-- > FontIcons.ts chứa tất cả vector-icon được dùng cho toàn app.
-
-    > Images.ts chứa tất cả đường dẫn ảnh dùng cho app.
-
-    > Reponsive.ts chứa thông tin về thông số kích thước màn hình, fontScale chữ.
-
-    > Global.ts chứa thông tin về các biến global variables. -->
-
   - `containers`: Folder that contains all your application screens.
   - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
-  - `hook`: If you have custom hooks defined in your project you can put it over here that can be shared across your entire project.
+  - `hook`: Nơi chứa các hook tái sử dụng của app.
   - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
   - `navigation`: Folder to store the navigators.
   - `localization`: Folder to store the languages files.
@@ -222,6 +213,10 @@ Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu t�
 
 ### /components
 
+### /navigation
+
+[`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
+
 Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
 
 - Đặt tên: Toàn bộ folder chứa component và tên component đều phải viết hoa chữ đầu.
@@ -262,6 +257,14 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
    Ví dụ:
 
 - MainContainer
+
+### /constans
+
+- `FontIcons` : chứa tất cả vector-icon được sử dụng chung cho toàn app.
+- `Images.ts` : chứa tất cả đường dẫn ảnh dùng cho app.
+- `Reponsive.ts`: chứa thông tin về thông số kích thước màn hình, fontScale chữ.
+- `Global.ts`:chứa thông tin về các biến global variables.
+- `Fonts.ts` : font của app.
 
 ### /container
 

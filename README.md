@@ -291,10 +291,11 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 ### Components
 
-Location: ./src/components/
+Location: `./src/components/`
 
-- Component: ComponentName.tsx
-- Component styles: style.tsx
+- Component: `<ComponentName>.component.tsx`
+- Component styles: `<ComponentName>.component.style.tsx`
+- Snapshot and behavior tests: `<ComponentName>.component.test.tsx`
 
 [`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
 

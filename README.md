@@ -225,7 +225,7 @@ Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu t�
 
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
 
-### Component
+### /components
 
 Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
 

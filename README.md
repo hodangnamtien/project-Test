@@ -287,11 +287,14 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
     const navigation = useNavigation<BookCategoryListNavigationProp>()
     ```
 
-`````
-
 ### /localization
 
-### /components
+### Components
+
+Location: ./src/components/
+
+- Component: <ComponentName>.tsx
+- Component styles: style.tsx
 
 [`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
 
@@ -332,7 +335,7 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
       "@hooks": ["./src/hooks"],
       "@types": ["./src/types"]
     }
-`````
+````
 
 (Sử dụng package.json để tránh đường dẫn tương đối)
 và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json`, ví dụ như sau:

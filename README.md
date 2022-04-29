@@ -184,14 +184,14 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input và một button có thể kết hợp thành một khung tìm kiếm).
    Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.
 
-Ví dụ:
+   Ví dụ:
 
 - CheckboxItem (Cấu tạo: Checkbox + Text)
 - InputField (Cấu tạo: Input + RequiredField + ErrorText)
 
 3. organisms: nhóm các Molecules giống nhau hoặc khác nhau để tạo thành một thành phần hoàn chỉnh của một giao diện. (Ví dụ: Header trang có thể kết hợp từ một logo, menu và khung tìm kiếm)
 
-Ví dụ:
+   Ví dụ:
 
 - MainContainer
 

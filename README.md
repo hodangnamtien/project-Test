@@ -139,7 +139,7 @@ sudo gem install cocoapods
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
-### /api
+### api
 
 App sử dụng `Axios` để gọi các api của nền tảng Study Space. Ngôn ngữ truy vấn sử dụng [`GraphQl`](https://graphql.org/).
 
@@ -389,7 +389,10 @@ Eg:
  },
 ```
 
-## Tối ưu mã
+## Code convention
+
+- Early exit instead of a long if block. [Details]
+- Dùng arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/)
 
 Dùng extension "Prettier - Code formatter" đề định dạng lại code.
 Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.

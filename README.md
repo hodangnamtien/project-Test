@@ -178,17 +178,20 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 ```
 
 - Khi viết 1 component cần cân nhắc việc đưa logic vào trong component. Tuy nhiên sẽ cũng có những component bắt buộc phải đưa xử lý logic vào vì nó luôn luôn tái sử dụng lại logic đó.
--
 
 1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau,
 
 2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input và một button có thể kết hợp thành một khung tìm kiếm).
    Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.
 
+Ví dụ:
+
 - CheckboxItem (Cấu tạo: Checkbox + Text)
 - InputField (Cấu tạo: Input + RequiredField + ErrorText)
 
 3. organisms: nhóm các Molecules giống nhau hoặc khác nhau để tạo thành một thành phần hoàn chỉnh của một giao diện. (Ví dụ: Header trang có thể kết hợp từ một logo, menu và khung tìm kiếm)
+
+Ví dụ:
 
 - MainContainer
 

@@ -197,6 +197,26 @@ Cấu trúc:
 
 `500`: Lỗi máy chủ nội bộ. -->
 
+### /navigation
+
+Đặt tên: Screen + Navigator
+VD: SupportNavigator,...
+
+[`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
+[`Type checking screens`](https://reactnavigation.org/docs/typescript/)
+
+1. Type checking screens
+   Props/ params của màn hình cần được khai báo rõ ràng.
+
+```js
+import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+
+type RootStackParamList = {
+  Home: undefined,
+  Profile: { userId: string },
+};
+```
+
 ### /assets
 
 Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
@@ -210,12 +230,6 @@ Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu t�
     > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
 
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
-
-### /components
-
-### /navigation
-
-[`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
 
 Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
 
@@ -277,6 +291,8 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
   - `hook.ts`: chứa logic, state.
 
 ### /localization
+
+### /components
 
 [`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
 

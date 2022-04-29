@@ -268,7 +268,15 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 - MainContainer
 
-### /containers
+### /container
+
+```js
+ - `Employee`:
+      -`EmployeeList`:
+        - `EmployeeList.tsx`:
+        - `styles.ts`:
+        - `hook.ts`:
+```
 
 ### /localization
 

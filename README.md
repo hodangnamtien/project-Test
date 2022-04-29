@@ -268,9 +268,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 - MainContainer
 
-## Splash screen customization
-
-To customize the splash screen (logo and background color), use the CLI provided in the [official docs](https://github.com/crazycodeboy/react-native-splash-screen).
+###
 
 ## Setup environments
 
@@ -427,9 +425,13 @@ Ví dụ về file en.json:
 }
 ```
 
-## Foundation
+## Customization
 
-### Colors
+### Splash screen
+
+To customize the splash screen (logo and background color), use the CLI provided in the [official docs](https://github.com/crazycodeboy/react-native-splash-screen).
+
+### Color
 
 Mã màu sử dụng là `Hex code`, riêng mã màu backdrop của `Modal` là `RGBA`.
 

@@ -283,8 +283,8 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
     Khai báo kiểu dữ liệu cho route và navigation.
 
     ```js
-    const route = useRoute <BookCategoryListRouteProp> ()
-    const navigation = useNavigation <BookCategoryListNavigationProp>()
+    const route = useRoute<BookCategoryListRouteProp>)
+    const navigation = useNavigation<BookCategoryListNavigationProp>()
     ```
 
 `````

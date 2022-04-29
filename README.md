@@ -270,12 +270,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 ### /container
 
-Sử dụng custom hook:
-
-- Tách biệt hoàn toàn logic với giao diện
-- Tên của nó bắt đầu bởi `use`.
-- Khác với functional component, custom hooks trả về một dữ liệu bình thường, không phải là tsx mà là ts.
-- Khác với function bình thường, custom hooks có thể sử dụng các hooks khác như useState, useRef, … và cả các custom hooks khác
+- Sử dụng custom hook, tên của nó được đặt bắt đầu bằng `use`.
 
 ```js
  - `Employee`:

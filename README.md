@@ -181,6 +181,15 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 - Các props của component cần được khai báo kiểu rõ ràng.
 - Sau khi tạo 1 component thì component đó cần được export tại tệp index.ts của cây thư mục.
 
+```js
+interface Props {
+  name: string;
+}
+export const Button: React.FC<Props> = ({ name }) => {
+  return <></>;
+};
+```
+
 1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau,
 
 2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input và một button có thể kết hợp thành một khung tìm kiếm).

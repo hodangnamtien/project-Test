@@ -222,7 +222,7 @@ Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu t�
 
 ### components
 
-Xem các cấu trúc các component [`Tài liệu`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
+> Xem các cấu trúc các component [`Tài liệu`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
 
 - Component: `<ComponentName>.tsx`
 - Component styles: `styles.ts`

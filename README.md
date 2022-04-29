@@ -421,7 +421,7 @@ Eg:
   );
   ```
 
-  - Khuyến khích việc sử dụng useLayoutEffect() để cập nhật lại 1 screen thay vì truyền 1 callback function vào componentWillUnmount.
+- Khuyến khích việc sử dụng useLayoutEffect() để cập nhật lại 1 screen thay vì truyền 1 callback function vào componentWillUnmount.
 
 ### Phân trang - Paging:
 

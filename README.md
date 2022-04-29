@@ -153,11 +153,70 @@ sudo gem install cocoapods
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
+### /api
+
+App sử dụng `Axios` để gọi các api của nền tảng Study Space. Ngôn ngữ truy vấn sử dụng [`GraphQl`](https://graphql.org/).
+
+Ngoài ra có sử dụng method `fetch` để gọi các api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS.
+
+Cấu trúc:
+
+- `api`
+
+  - `CallApi`: Chứa các api của app.
+
+    Quy tắc đặt tên api:
+
+    Để danh từ số ít cho các tác vụ:
+
+    | Tác vụ | Tên    |
+    | ------ | ------ |
+    | Xem    | Get    |
+    | Thêm   | Create |
+    | Xóa    | Delete |
+    | Sửa    | Edit   |
+
+  Cú pháp: `Get/Create/Delete/Edit + Danh từ số ít/Danh từ số nhiều + Service`.
+
+  Ví dụ: GetEmployeeService, GetEmployeesService
+
+  Để danh từ số ít cho trường hợp lấy thông tin bộ lọc.
+
+  Cú pháp: `Get + Danh từ số ít + Filters + Service`
+
+  Ví dụ: GetEmployeeFilterService, GetEmployeeCategoryFiltersService.
+
+- `Service`:
+
+  - `endPoint.ts`: Chứa các biến URL `Application Configuration Endpoint` môi trường, bao gồm: DEV , STAGING, PROD.
+  - `Services.ts`: Config base call api chung.
+
+- `index.ts`: Export tất cả dường dẫn api trong thư mục `CallApi`.
+
+  > Ví dụ sử dụng :
+
+  ```js
+  import { GetEmployeeService } from "@api";
+  ```
+
+### HTTP status code và message
+
+`200`: Mọi thứ đang hoạt động.
+
+`400`: Bad request - Yêu cầu không hợp lệ.
+
+`403`: Forbidden resource - Tài nguyên bị cấm.
+
+`404`: Lỗi ứng dụng khách hoạt động sai (có thể do truyền sai giá trị, ...).
+
+`500`: Lỗi máy chủ nội bộ.
+
 ### /assets
 
 Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
 
 - ic_home
+
   - ic_home.png
   - ic_home@2x.png
   - ic_home@3x.png
@@ -293,64 +352,6 @@ Eg:
 
 Dùng extension "Prettier - Code formatter" đề định dạng lại code.
 Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
-
-### Api connection handler
-
-App sử dụng `Axios` để gọi các api của nền tảng Study Space. Ngôn ngữ truy vấn sử dụng [`GraphQl`](https://graphql.org/).
-
-Ngoài ra có sử dụng method `fetch` để gọi các api third party, ví dụ như api liên quan tới việc upload ảnh lên AWS.
-
-Cấu trúc:
-
-- `api`
-
-  - `CallApi`: Chứa các api của app.
-
-    Quy tắc đặt tên api:
-
-    Để danh từ số ít cho các tác vụ:
-
-    | Tác vụ | Tên    |
-    | ------ | ------ |
-    | Xem    | Get    |
-    | Thêm   | Create |
-    | Xóa    | Delete |
-    | Sửa    | Edit   |
-
-  Cú pháp: `Get/Create/Delete/Edit + Danh từ số ít/Danh từ số nhiều + Service`.
-
-  Ví dụ: GetEmployeeService, GetEmployeesService
-
-  Để danh từ số ít cho trường hợp lấy thông tin bộ lọc.
-
-  Cú pháp: `Get + Danh từ số ít + Filters + Service`
-
-  Ví dụ: GetEmployeeFilterService, GetEmployeeCategoryFiltersService.
-
-- `Service`:
-
-  - `endPoint.ts`: Chứa các biến URL `Application Configuration Endpoint` môi trường, bao gồm: DEV , STAGING, PROD.
-  - `Services.ts`: Config base call api chung.
-
-- `index.ts`: Export tất cả dường dẫn api trong thư mục `CallApi`.
-
-  > Ví dụ sử dụng :
-
-  ```js
-  import { GetEmployeeService } from "@api";
-  ```
-
-### HTTP status code và message
-
-`200`: Mọi thứ đang hoạt động.
-
-`400`: Bad request - Yêu cầu không hợp lệ.
-
-`403`: Forbidden resource - Tài nguyên bị cấm.
-
-`404`: Lỗi ứng dụng khách hoạt động sai (có thể do truyền sai giá trị, ...).
-
-`500`: Lỗi máy chủ nội bộ.
 
 ### Phân trang - Paging:
 

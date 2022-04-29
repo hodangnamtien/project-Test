@@ -400,10 +400,25 @@ Eg:
 - Hãy comment code nếu có thể và tránh những bình luận không liên quan.
 - Thoát sớm 1 khối thay vì `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
 - Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/).
-- Code đúng chuẩn typescipts.
 - Validate:
   > Sử dụng `Formik` cho những xử lý form phức tạp.
 - Không dùng các method của `async storage` để tìm nạp dữ liệu, thay vì đó hãy sử dụng `redux-persist`.
+- Khi nhận những phản hồi của api thì sử dụng dispatch của redux để hiển thị phẩn hồi đó.
+  ```js
+  dispatch(
+    updateMessage({
+      type: "single",
+      message:  "message"),
+      img: "error",
+      onPress: () => {
+        dispatch(clearMessage());
+      },
+      onClose: () => {
+        dispatch(clearMessage());
+      },
+    })
+  );
+  ```
 
 ### Phân trang - Paging:
 

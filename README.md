@@ -136,11 +136,6 @@ sudo gem install cocoapods
     > Global.ts chứa thông tin về các biến global variables. -->
 
   - `containers`: Folder that contains all your application screens.
-    <!-- - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
-      - `component`: các component được dùng riêng cho thư mục này.
-      - `Screen.tsx` chứa UI.
-      - `styles.ts`: chứa css.
-      - `hook.ts`: chưa logic, state. -->
   - `helpers`: Thư mục này chứa các function hỗ trợ việc showUI.
   - `hook`: If you have custom hooks defined in your project you can put it over here that can be shared across your entire project.
   - `models`: Chứa các interface hoặc type của app định nghĩa kiểu dữ liệu.
@@ -272,13 +267,11 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 - Sử dụng custom hook, tên của nó được đặt bắt đầu bằng `use`.
 
-```js
- - `Employee`:
-      -`EmployeeList`:
-        - `EmployeeList.tsx`: Chỉ chứa UI, nhận state props từ `hook.ts`
-        - `styles.ts`:
-        - `hook.ts`: Chứa state của màn hình, logic của màn hình.
-```
+- `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
+  - `component`: các component được dùng riêng ở màn hình sẽ bỏ vào thư mục này.
+  - `Screen.tsx` chứa UI.
+  - `styles.ts`: chứa css.
+  - `hook.ts`: chưa logic, state.
 
 ### /localization
 

@@ -155,16 +155,7 @@ sudo gem install cocoapods
 
 ### assets
 
-Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
-
-    - ic_home
-      - ic_home.png
-      - ic_home@2x.png
-      - ic_home@3x.png
-
-    > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
-
-    > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
+Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có. - ic_home - ic_home.png - ic_home@2x.png - ic_home@3x.png > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
 
 ### Component
 

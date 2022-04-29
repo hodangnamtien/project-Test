@@ -197,7 +197,7 @@ Cấu trúc:
 
 `500`: Lỗi máy chủ nội bộ. -->
 
-### /navigation và types
+### navigation và types
 
 [`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
 
@@ -206,7 +206,7 @@ VD: SupportNavigator,...
 
 - Props/ params của màn hình cần được khai báo rõ ràng [`Tài liệu`](https://reactnavigation.org/docs/typescript/).
 
-### /assets
+### assets
 
 Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
 
@@ -219,6 +219,11 @@ Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu t�
     > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
 
     > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
+
+### components
+
+- Component: `<ComponentName>.tsx`
+- Component styles: `styles.ts`
 
 Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
 
@@ -261,7 +266,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 - MainContainer
 
-### /constans
+### constans
 
 - `FontIcons` : chứa tất cả vector-icon được sử dụng chung cho toàn app.
 - `Images.ts` : chứa tất cả đường dẫn ảnh dùng cho app.
@@ -269,7 +274,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 - `Global.ts`:chứa thông tin về các biến global variables.
 - `Fonts.ts` : font của app.
 
-### /container
+### container
 
 - Sử dụng custom hook, tên của nó được đặt bắt đầu bằng `use`.
 
@@ -287,7 +292,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
     const navigation = useNavigation<BookCategoryListNavigationProp>()
     ```
 
-### /localization
+### localization
 
 Tùy chỉnh text ngôn ngữ tại `/src/localization/languages`.
 
@@ -306,20 +311,6 @@ Ví dụ về file en.json:
   },
 }
 
-```
-
-#### Components
-
-- Component: `<ComponentName>.tsx`
-- Component styles: `styles.ts`
-
-```bash
-./src/components/LoadingMask/
-├── LoadingMask.component.tsx
-├── LoadingMask.component.style.tsx
-├── LoadingMask.component.test.tsx
-└── __snapshots__
-    └── LoadingMask.component.test.tsx.snap
 ```
 
 ## Setup environments

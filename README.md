@@ -401,7 +401,9 @@ Eg:
 - Thoát sớm thay vì 1 khối `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
 - Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/).
 - Code đúng chuẩn typescipts.
-- Sử dụng `Formik`
+- Validate:
+  > Sử dụng `Formik` cho những xử lý form phức tạp.
+- Lưu redux state vào local storage hãy sử dụng `redux-persist`, thay cho` aysnc storage`.
 
 ### Phân trang - Paging:
 

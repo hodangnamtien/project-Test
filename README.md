@@ -199,7 +199,7 @@ Cấu trúc:
   import { GetEmployeeService } from "@api";
   ```
 
-### HTTP status code và message
+<!-- ### HTTP status code và message
 
 `200`: Mọi thứ đang hoạt động.
 
@@ -209,7 +209,7 @@ Cấu trúc:
 
 `404`: Lỗi ứng dụng khách hoạt động sai (có thể do truyền sai giá trị, ...).
 
-`500`: Lỗi máy chủ nội bộ.
+`500`: Lỗi máy chủ nội bộ. -->
 
 ### /assets
 

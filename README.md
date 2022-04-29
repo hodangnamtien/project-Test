@@ -398,8 +398,9 @@ Eg:
   > Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
 
 - Hãy comment code nếu có thể và tránh những bình luận không liên quan.
-- Thoát sớm thay vì 1 khối `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md)
-- Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/)
+- Thoát sớm thay vì 1 khối `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
+- Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/).
+- Code đúng chuẩn typescipts.
 
 ### Phân trang - Paging:
 

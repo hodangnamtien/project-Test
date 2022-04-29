@@ -403,7 +403,7 @@ Eg:
 - Validate:
   > Sử dụng `Formik` cho những xử lý form phức tạp.
 - Không dùng các method của `async storage` để tìm nạp dữ liệu, thay vì đó hãy sử dụng `redux-persist`.
-- Khi nhận những phản hồi của api thì sử dụng dispatch của redux để hiển thị phẩn hồi đó.
+- Khi nhận những phản hồi của api hãy nên sử dụng dispatch của redux để hiển thị phẩn hồi đó. Mẫu như sau:
   ```js
   dispatch(
     updateMessage({

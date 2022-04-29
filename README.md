@@ -141,17 +141,12 @@ sudo gem install cocoapods
 
 ### redux
 
-/store - Includes everything you need to set up store.
-reducers - Combines all feature based reducers
-sagas - Combines all feature based sagas
-index.js - Set ups store and export things
-
-- `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
-
-  - `component`: các component được dùng riêng ở màn hình sẽ bỏ vào thư mục này.
-  - `Screen.tsx` chứa UI.
-  - `styles.ts`: chứa css.
-  - `hook.ts`: chứa logic, state.
+- `action`:
+- `reducers`:
+- `sagas`:
+- `slices`
+- `types`:
+- `store.ts`:
 
 ### api
 

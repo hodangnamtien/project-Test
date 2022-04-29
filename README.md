@@ -139,6 +139,20 @@ sudo gem install cocoapods
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
+### redux
+
+/store - Includes everything you need to set up store.
+reducers - Combines all feature based reducers
+sagas - Combines all feature based sagas
+index.js - Set ups store and export things
+
+- `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
+
+  - `component`: các component được dùng riêng ở màn hình sẽ bỏ vào thư mục này.
+  - `Screen.tsx` chứa UI.
+  - `styles.ts`: chứa css.
+  - `hook.ts`: chứa logic, state.
+
 ### api
 
 App sử dụng `Axios` để gọi các api của nền tảng Study Space. Ngôn ngữ truy vấn sử dụng [`GraphQl`](https://graphql.org/).
@@ -397,6 +411,7 @@ Eg:
 
   > Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
 
+- Hãy sử dụng `yarn` để cài đặt các phụ thuộc.
 - Hãy comment code nếu có thể và tránh những bình luận không liên quan.
 - Thoát sớm 1 khối thay vì `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
 - Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/).

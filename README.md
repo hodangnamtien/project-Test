@@ -271,7 +271,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
   - `component`: các component được dùng riêng ở màn hình sẽ bỏ vào thư mục này.
   - `Screen.tsx` chứa UI.
   - `styles.ts`: chứa css.
-  - `hook.ts`: chưa logic, state.
+  - `hook.ts`: chứa logic, state.
 
 ### /localization
 

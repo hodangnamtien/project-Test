@@ -222,10 +222,10 @@ Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu t�
 
 ### components
 
+Xem các cấu trúc các component [`Tài liệu`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
+
 - Component: `<ComponentName>.tsx`
 - Component styles: `styles.ts`
-
-Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
 
 - Đặt tên: Toàn bộ folder chứa component và tên component đều phải viết hoa chữ đầu.
   Eg:

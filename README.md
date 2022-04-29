@@ -166,7 +166,16 @@ sudo gem install cocoapods
 
 ### Component
 
-[Document tham khảo](https://viblo.asia/p/atomic-design-voi-react-YWOZrB2pZQ0)
+- Đặt tên: Toàn bộ folder chứa component và tên component đều phải viết hoa chữ đầu.
+  Eg:
+
+```js
+ - `Input`:
+      - Input.tsx
+      - styles.ts
+```
+
+- Khi viết 1 component cần cân nhắc việc đưa logic vào trong component. Tuy nhiên sẽ cũng có những component bắt buộc phải đưa xử lý logic vào vì nó luôn luôn tái sử dụng lại logic đó.
 
 1. atoms: là các component nhỏ nhất có thể, VD các button, title, input hay font, animation. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều state, như với button: disabled, hover, các size khác nhau, ...
 
@@ -270,10 +279,6 @@ Eg:
 
 Dùng extension "Prettier - Code formatter" đề định dạng lại code.
 Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
-
-## Quy tắc code
-
-- Các `component` viết hoa chữ cái đầu, ví dụ: ButtonGradient,...
 
 ### Api connection handler
 

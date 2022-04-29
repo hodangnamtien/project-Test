@@ -391,7 +391,7 @@ Eg:
 
 ## Code convention
 
-- Format code:
+- Clean code:
 
   > Dùng extension "Prettier - Code formatter" đề format code.
 
@@ -401,6 +401,7 @@ Eg:
 - Thoát sớm thay vì 1 khối `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
 - Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/).
 - Code đúng chuẩn typescipts.
+- Sử dụng `Formik`
 
 ### Phân trang - Paging:
 

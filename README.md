@@ -398,12 +398,12 @@ Eg:
   > Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import thừa thãi.
 
 - Hãy comment code nếu có thể và tránh những bình luận không liên quan.
-- Thoát sớm thay vì 1 khối `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
+- Thoát sớm 1 khối thay vì `if` dài. [Chi tiết](https://github.com/ajafff/tslint-consistent-codestyle/blob/master/docs/early-exit.md).
 - Only arrow functions. [Chi tiết](https://palantir.github.io/tslint/rules/only-arrow-functions/).
 - Code đúng chuẩn typescipts.
 - Validate:
   > Sử dụng `Formik` cho những xử lý form phức tạp.
-- Lưu redux state vào local storage hãy sử dụng `redux-persist`, thay cho `aysnc storage`.
+- Không dùng các method của `async storage` để tìm nạp dữ liệu, thay vì đó hãy sử dụng `redux-persist`.
 
 ### Phân trang - Paging:
 

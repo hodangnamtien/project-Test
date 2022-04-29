@@ -280,7 +280,7 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
   - `styles.ts`: chứa css.
   - `hook.ts`: chứa logic, state.
 
-    Khi điều hướng màn hình cần được khai báo kiểu cho route và navigation.
+    Khai báo kiểu dữ liệu cho route và navigation.
 
     ```js
     const route = useRoute <BookCategoryListRouteProp> ()

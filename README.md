@@ -166,9 +166,24 @@ sudo gem install cocoapods
 
 ### Component
 
-1. atoms: là thành phần nhỏ nhất, những block cơ bản nhất và không thể nhỏ hơn nữa (ví dụ: button, input field, checkbox,...).
+[Document tham khảo](https://viblo.asia/p/atomic-design-voi-react-YWOZrB2pZQ0)
+
+1. atoms: là các component nhỏ nhất có thể, VD các button, title, input hay font, animation. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều state, như với button: disabled, hover, các size khác nhau, ...
+
+- Text
+- Button
+- Input
+- Checkbox
+- Switch
+- Stepper
+- Image
+- Segmented Control
+
 2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input field và một button có thể kết hợp thành một khung tìm kiếm).
    Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.
+
+- CheckboxItem
+
 3. organisms: nhóm các Molecules giống nhau hoặc khác nhau để tạo thành một thành phần hoàn chỉnh của một giao diện. (Ví dụ: Header trang có thể kết hợp từ một logo, menu và khung tìm kiếm)
 
 ## Splash screen customization
@@ -258,24 +273,7 @@ Dùng tổ hợp phím "Command + Shift + 0" để xóa những thứ import th�
 
 ## Quy tắc code
 
-    Các component phải viết hoa chữ đầu, ví dụ:
-        ButtonGroup, Input
-
-Không đặt tên bằng Số, tiếng Việt , không đúng nghĩa hoặc vô nghĩa.
-
-1. Cách khai báo function (chủ yếu dùng function arrow)
-
-```js
-interface Props {}
-export const MyButton: React.FC<Props> = () => {
-  return <View></View>;
-};
-```
-
-2. Sử dụng component `MainContainer` cho toàn bộ màn hình.
-3. Text sử dụng component `ThemedText`.
-4. Sử dụng component `MainImage` cho những list có ảnh từ sever trả về.
-5. Sử dụng useNavigation và useRoute cho custom hook phải khải báo kiểu navigtionProp và routeProp.
+- Các `component` viết hoa chữ cái đầu, ví dụ: ButtonGradient,...
 
 ### Api connection handler
 
@@ -433,16 +431,6 @@ Quy ước mã màu chữ:
 | ---------------- | ------------- |
 | background       | #E5E5E5       |
 | background_light | #FFFFFF       |
-
-- Các trạng thái màu sắc:
-
-| Tên                | Mapping Figma |
-| ------------------ | ------------- |
-| primary_main       |               |
-| secondary_main     |               |
-| hyperlink \| infor |               |
-| warning            |               |
-| success \| infor   |               |
 
 Cách lấy giá trị `mode` chế độ darkmode để xử lý UI như sau:
 

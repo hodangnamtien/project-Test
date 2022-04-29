@@ -139,15 +139,6 @@ sudo gem install cocoapods
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
-### redux
-
-- `action`
-- `reducers`
-- `sagas`
-- `slices`
-- `types`: aciton type.
-- `store.ts`: Khởi tạo store.
-
 ### api
 
 App sử dụng `Axios` để gọi các api của nền tảng Study Space. Ngôn ngữ truy vấn sử dụng [`GraphQl`](https://graphql.org/).
@@ -321,6 +312,15 @@ Ví dụ về file en.json:
 }
 
 ```
+
+### redux
+
+- `action`
+- `reducers`: Chứa các pure function.
+- `sagas`
+- `slices`
+- `types`: aciton type.
+- `store.ts`: Khởi tạo store.
 
 ## Setup environments
 

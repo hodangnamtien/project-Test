@@ -268,6 +268,8 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 - MainContainer
 
+### /containers
+
 ### /localization
 
 [`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)

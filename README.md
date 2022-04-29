@@ -166,6 +166,8 @@ sudo gem install cocoapods
 
 ### Component
 
+Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
+
 - Đặt tên: Toàn bộ folder chứa component và tên component đều phải viết hoa chữ đầu.
   Eg:
 
@@ -178,37 +180,7 @@ sudo gem install cocoapods
 - Khi viết 1 component cần cân nhắc việc đưa logic vào trong component. Tuy nhiên sẽ cũng có những component bắt buộc phải đưa xử lý logic vào vì nó luôn luôn tái sử dụng lại logic đó.
 -
 
-1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau, ...
-
-- ActionSheet
-- ActivityIndicator
-- Button
-- ButtonGradient
-- ButtonWrapper
-- Checkbox
-- Divider
-- Dots
-- ErrorText
-- HeaderAuth
-- Icon
-- Input
-- InputSpinner
-- ListEmpty
-- MainImage
-- Modal
-- RadioButton
-- RadioCheckbox
-- Rating
-- RequiredField
-- Separator
-- StatusBar
-- Stepper
-- Switch
-- Text
-- TopTab
-- TouchableOpacity
-
-...
+1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau,
 
 2. molecules: gồm các atom kết hợp vs nhau là các phần tử bên ngoài như đơn vị (ví dụ: một input và một button có thể kết hợp thành một khung tìm kiếm).
    Molecules có thể đơn giản hoặc phức tạp, được xây dựng để tái sử dụng hoặc chỉ dụng một lần.

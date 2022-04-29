@@ -268,7 +268,26 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 - MainContainer
 
-###
+### /localization
+
+[`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
+
+Tùy chỉnh text ngôn ngữ tại `/src/localization/languages`.
+
+Ví dụ về file en.json:
+
+````js
+{
+  //  Đối với những text public
+  "signIn": "Sign in",
+
+  //  Đối với những text private cho từng màn hình ta dùng như sau:
+  //  Trong đó: key object chính là tên SCREEN.
+   "auth": {
+    "or": "Or",
+
+  },
+}
 
 ## Setup environments
 
@@ -290,7 +309,7 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
       "@hooks": ["./src/hooks"],
       "@types": ["./src/types"]
     }
-```
+````
 
 (Sử dụng package.json để tránh đường dẫn tương đối)
 và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json`, ví dụ như sau:
@@ -401,28 +420,6 @@ export const Images = {
     ic_personal: require("../assets/icons/ic_personal/ic_personal.png"),
   },
 };
-```
-
-### Tùy chỉnh ngôn ngữ
-
-[`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
-
-Tùy chỉnh text ngôn ngữ tại `/src/utils/languages/languages`.
-
-Ví dụ về file en.json:
-
-```js
-{
-  //  Đối với những text public
-  "signIn": "Sign in",
-
-  //  Đối với những text private cho từng màn hình ta dùng như sau:
-  //  Trong đó: key object chính là tên SCREEN.
-   "auth": {
-    "or": "Or",
-
-  },
-}
 ```
 
 ## Customization

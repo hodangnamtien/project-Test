@@ -178,6 +178,8 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 ```
 
 - Khi viết 1 component cần cân nhắc việc đưa logic vào trong component. Tuy nhiên sẽ cũng có những component bắt buộc phải đưa xử lý logic vào vì nó luôn luôn tái sử dụng lại logic đó.
+- Các props của component cần được khai báo kiểu rõ ràng.
+- Sau khi tạo 1 component thì component đó cần được export tại tệp index.ts của cây thư mục.
 
 1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau,
 

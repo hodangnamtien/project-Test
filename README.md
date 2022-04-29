@@ -289,21 +289,11 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 
 ### /localization
 
-### Components
-
-Location: `./src/components/`
-
-- Component: `<ComponentName>.component.tsx`
-- Component styles: `<ComponentName>.component.style.tsx`
-- Snapshot and behavior tests: `<ComponentName>.component.test.tsx`
-
-[`Document`](https://github.com/AlexanderZaytsev/react-native-i18n)
-
 Tùy chỉnh text ngôn ngữ tại `/src/localization/languages`.
 
 Ví dụ về file en.json:
 
-````js
+```js
 {
   //  Đối với những text public
   "signIn": "Sign in",
@@ -315,6 +305,22 @@ Ví dụ về file en.json:
 
   },
 }
+
+```
+
+#### Components
+
+- Component: `<ComponentName>.tsx`
+- Component styles: `styles.ts`
+
+```bash
+./src/components/LoadingMask/
+├── LoadingMask.component.tsx
+├── LoadingMask.component.style.tsx
+├── LoadingMask.component.test.tsx
+└── __snapshots__
+    └── LoadingMask.component.test.tsx.snap
+```
 
 ## Setup environments
 
@@ -336,7 +342,7 @@ Chỉnh sửa file `tsconfig.ts` để cập nhật đường dẫn:
       "@hooks": ["./src/hooks"],
       "@types": ["./src/types"]
     }
-````
+```
 
 (Sử dụng package.json để tránh đường dẫn tương đối)
 và ở mỗi bên trong 1 cây thư mục lớn sẽ có file `package.json`, ví dụ như sau:

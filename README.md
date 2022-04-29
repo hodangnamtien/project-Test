@@ -141,12 +141,12 @@ sudo gem install cocoapods
 
 ### redux
 
-- `action`:
-- `reducers`:
-- `sagas`:
+- `action`
+- `reducers`
+- `sagas`
 - `slices`
-- `types`:
-- `store.ts`:
+- `types`: aciton type.
+- `store.ts`: Khởi tạo store.
 
 ### api
 

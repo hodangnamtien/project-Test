@@ -118,17 +118,6 @@ sudo gem install cocoapods
   - `api`: This folder contains logic related to external API communications.
   - `assets`: Asset folder to store all images, icons, fonts.
 
-    <!-- Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
-
-    - ic_home
-      - ic_home.png
-      - ic_home@2x.png
-      - ic_home@3x.png
-
-    > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
-
-    > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error -->
-
   - `components`: Folder to store any common component that you use through your app (such as a generic button).
   - `config`: Nơi khai báo tên các "Màn hình" của app.
   <!--
@@ -164,6 +153,19 @@ sudo gem install cocoapods
   - `App.tsx`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
+### /assets
+
+    Tại đây bạn có thể lưu trữ tất cả các hình ảnh và biểu tượng mà bạn cần thông qua ứng dụng. Ví dụ, bạn có biểu tượng ic_home.png, để đáp ứng với các mật độ màn hình thiết bị khác nhau, chỉ cần tạo bên trong cùng một thư mục hình ảnh và tất cả các phiên bản được chia tỷ lệ mà bạn cần. RN chỉ xử lý x1, x2 và x3 trong trường hợp này, bạn có.
+
+    - ic_home
+      - ic_home.png
+      - ic_home@2x.png
+      - ic_home@3x.png
+
+    > Quy tắc đặt tên cho image, ví dụ như sau: classroom, course_list
+
+    > Quy tắc đặt tên cho icon, ví dụ như sau: ic_profile, ic_error
+
 ### Component
 
 Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/Structure-component?node-id=0%3A1)
@@ -190,9 +192,6 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
   ```
 
 - Sau khi tạo 1 component thì component đó cần được export tại tệp index.ts của cây thư mục.
-  ```js
-  export * from "./Button/Button";
-  ```
 
 1. atoms: là các component nhỏ nhất có thể. Chúng có thể được đặt vào bất kỳ bối cảnh nào, toàn cục hay bên trong các component khác, khuôn mẫu khác, có chứa nhiều props, như với button: disabled, các size khác nhau,
 

@@ -203,19 +203,8 @@ Cấu trúc:
 VD: SupportNavigator,...
 
 [`Tài liệu chính thức`](https://reactnavigation.org/docs/getting-started/)
-[`Type checking screens`](https://reactnavigation.org/docs/typescript/)
 
-1. Type checking screens
-   Props/ params của màn hình cần được khai báo rõ ràng.
-
-```js
-import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-
-type RootStackParamList = {
-  Home: undefined,
-  Profile: { userId: string },
-};
-```
+- Props/ params của màn hình cần được khai báo rõ ràng [`Tài liệu`](https://reactnavigation.org/docs/typescript/).
 
 ### /assets
 

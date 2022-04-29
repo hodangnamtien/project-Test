@@ -274,11 +274,14 @@ Xem [`Tất cả component`](https://www.figma.com/file/VlQXnRGeWbhTWQhqXYT5bd/S
 - Sử dụng custom hook, tên của nó được đặt bắt đầu bằng `use`.
 
 - `Screen`: Mỗi màn hình sẽ được lưu trữ bên trong thư mục của nó và bên trong nó là một tệp cho mã của nó.
+
   - `component`: các component được dùng riêng ở màn hình sẽ bỏ vào thư mục này.
   - `Screen.tsx` chứa UI.
   - `styles.ts`: chứa css.
   - `hook.ts`: chứa logic, state.
+
     Khi điều hướng màn hình cần được khai báo kiểu cho route và navigation.
+
     ```js
     const route = useRoute <BookCategoryListRouteProp> ()
     const navigation = useNavigation <BookCategoryListNavigationProp>()
